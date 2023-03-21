@@ -1,10 +1,10 @@
 <h2> AReS </h2>
 
-<hr>
+---
 
-[Descrição]() + [Proposta]() + [Protótipo]() + [Cronograma]()
+[Descrição]() • [Proposta]() • [Protótipo]() • [Cronograma]()
 
-<hr>
+---
 
 ## Descrição do projeto
  Este repositório é destinado ao projeto do API.
