@@ -23,11 +23,11 @@
 ## 👨‍💻 Dev Team
 |Integrantes|Função|Github|
 | --------- | ---- | ---- |
-| João Vitor Nogueira Silva|Product Owner|[Github]()|
-|Sandro Roberto Pimentel Junior|Scrum Master|[Github]()|
-|João Eduardo Messias Moreira|Scrum Team|[Github]()|
+| João Vitor Nogueira Silva|Product Owner|[Github](https://github.com/JoViHamets)|
+|Sandro Roberto Pimentel Junior|Scrum Master|[Github](https://github.com/Sandro-Pimentel)|
+|João Eduardo Messias Moreira|Scrum Team|[Github](https://github.com/joao-eduardo17)|
 |José Ribamar Ferreira Nobre Junior|Scrum Team|[Github]()|
-|Kalil Alves Pereira|Scrum Team|[Github]()|
+|Kalil Alves Pereira|Scrum Team|[Github](https://github.com/kalil10969)|
 |Léo de Paula Naito|Scrum Team|[Github]()|
-|Pablo Félix Barbosa|Scrum Team|[Github]()|
-|Vitor Henrique Saborito da Silva Rocha|Scrum Team|[Github]()|
+|Pablo Félix Barbosa|Scrum Team|[Github](https://github.com/PABBARBO)|
+|Vitor Henrique Saborito da Silva Rocha|Scrum Team|[Github](https://github.com/VituuSaborito)|
