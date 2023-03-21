@@ -2,7 +2,7 @@
 
 ---
 
-[Descrição]() • [Proposta]() • [Protótipo]() • [Cronograma]()
+[Descrição](https://github.com/Sandro-Pimentel/AReS/blob/main/README.md#descri%C3%A7%C3%A3o-do-projeto) • [Proposta](https://github.com/Sandro-Pimentel/AReS/blob/main/README.md#proposta) • [Protótipo](https://github.com/Sandro-Pimentel/AReS/blob/main/README.md#prot%C3%B3tipo-do-figma) • [Cronograma](https://github.com/Sandro-Pimentel/AReS/blob/main/README.md#-cronograma-das-sprints)
 
 ---
 
