@@ -8,17 +8,23 @@
 
 ## Descrição do projeto
  Este repositório é destinado ao projeto do API.
+
 ## Proposta
  Desenvolver um site para uma instituição de ensino que busca ensinar de maneira lúdica a aplicação da metodologia scrum.
+
 ## Protótipo do Figma
 * [Protótipo](https://www.figma.com)
+
 ## 📆 Cronograma das sprints
 + Sprint 0 - 13/02 a 03/03
 + Sprint 1 - 13/03 a 02/04
 + Sprint 2 - 03/04 a 23/04
 + Sprint 3 - 24/04 a 14/05
 + Sprint 4 - 15/05 a 04/06
+
 ## 🖥 Tecnologias Utilizadas
++ Figma - Utilizado para o desenvolvimento do protótipo.
+
 
 ## 👨‍💻 Dev Team
 |Integrantes|Função|Github|
