@@ -43,7 +43,7 @@
 | João Vitor Nogueira Silva|Product Owner|[Github](https://github.com/JoViHamets)|
 |Sandro Roberto Pimentel Junior|Scrum Master|[Github](https://github.com/Sandro-Pimentel)|
 |João Eduardo Messias Moreira|Scrum Team|[Github](https://github.com/joao-eduardo17)|
-|José Ribamar Ferreira Nobre Junior|Scrum Team|[Github]()|
+|José Ribamar Ferreira Nobre Junior|Scrum Team|[Github](https://github.com/JoseRibamarNobre7)|
 |Kalil Alves Pereira|Scrum Team|[Github](https://github.com/kalil004)|
 |Léo de Paula Naito|Scrum Team|[Github]()|
 |Pablo Félix Barbosa|Scrum Team|[Github](https://github.com/PABBARBO)|
