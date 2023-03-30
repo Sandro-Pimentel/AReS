@@ -13,7 +13,7 @@
  Desenvolver um site para uma instituição de ensino que busca ensinar de maneira lúdica a aplicação da metodologia scrum.
 
 ##  Protótipo do Figma
-* [Protótipo](https://www.figma.com)
+* [Protótipo](https://www.figma.com/file/0AKYScVS37OimqYJeVhm12/Prot%C3%B3tipo(AReS)?node-id=3-5&t=ZlQmifLBmwEb5LXO-0)
 
 ## 📆 Cronograma de entrega das sprints
 
