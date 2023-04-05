@@ -21,10 +21,10 @@
     
 
 <div>
-    <img width="200" height="300" src="https://github.com/Sandro-Pimentel/AReS/blob/main/images/Sprint1Card%20(1).png">
-    <img width="200" height="300" src="https://github.com/Sandro-Pimentel/AReS/blob/main/images/Sprint2Card%20(1).png">
-    <img width="200" height="300" src="https://github.com/Sandro-Pimentel/AReS/blob/main/images/Sprint3Card%20(1).png">
-    <img width="200" height="300"  src="https://github.com/Sandro-Pimentel/AReS/blob/main/images/Sprint4Card%20(1).png">
+    <img width="240" height="200" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/Sprint1.png">
+    <img width="240" height="200" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/Sprint2.png">
+    <img width="240" height="200" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/Sprint3.png">
+    <img width="240" height="200" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/Sprint4.png">
 </div>
 
 + Sprint 0 - 13/02 a 03/03
