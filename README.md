@@ -50,6 +50,9 @@
 
 ## 🖥 Tecnologias Utilizadas
 + Figma - Utilizado para o desenvolvimento do protótipo.
++ GitHub - Utilizado para entrega da documentação.
++ Planner - Utilizado para organização da equipe. 
++ Excel - Utilizado para organização das tarefas.
 
 
 ## 👨‍💻 Dev Team
