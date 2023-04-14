@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic&display=swap');
+
+body {
+  font-family: 'Livvic', sans-serif;
+}
+/* Página Base */
+#nav{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    top: 0px;
+    background: #8121A6;
+    text-align: center;
+}
+#txtnav{
+    position: absolute;
+    width: 244px;
+    height: 65px;
+    left: 40%;
+    top: 20%;
+    
+    font-family: 'Livvic';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80%;
+    
+    
+    color: #FFFFFF;
+}
+#menu{
+    position: absolute;
+    width: 110px;
+    height: 105px;
+    left: 1%;
+    top: 10px;
+
+    background: url(menu.png);
+}
+
+#home{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    right: 1%;
+    top: 10px;
+
+    background: url(home.png);
+}
+
+/* pagina 3 de conteudo */
+.sub_header_links{
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: #550F71; /* cor personalizada para o link */
+    text-decoration: none; /* remover sublinhado padrão */
+}
+      
+a:hover {
+    color: #AB1BE3; /* cor personalizada quando o link é hoverado */
+}
+
+.shlt{
+    margin-left: 5%;
+    margin-right: 5%;
+}  
+
+.box{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #d181f0;
+    margin-top: 2%;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    margin-left:4%;
+    /*margin-right:4%;*/
+}
+
+.box_txt{
+font-size:300%;
+color: aliceblue
+}
+/*fim da pagina 3 de conteudo*/
