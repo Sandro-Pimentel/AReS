@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <title>Capítulo 1 - Definições</title>
+    
+</head>
+<body id="page-content">
+    <!-- side bar \/ -->
+    <div id="sidebar">
+        <h2>barra lateral</h2>
+        <ul>
+            <a href="#"><li>Capítulo 1 - Definições</li></a>
+            <a href="#"><li>Capítulo 2 - Responsabilidades e papéis</li></a>
+            <a href="#"><li>Capítulo 3 - Eventos do Scrum</li></a>
+            <a href="#"><li>Capítulo 4 - Eventos do Scrum</li></a>
+        </ul>
+    </div>  
+
+    <header>
+        <div class="nav">
+            <div class="element">
+                <button id="sidebar-toggle"><img src="./static/imagens/menu1.png"></button>
+            </div>
+            <div>
+                <b class="title">Capítulo 1</b>
+            </div>
+        
+            <div class="element">
+                <a href="#"><img src="./static/imagens/home1.png"></a>
+            </div>
+        </div>
+    </header>
+        <div class="links">
+            <a href="#">Fundamentos</a>
+            <a href="#">Valores e princípios</a>
+            <a href="#">Pilares do scrum</a>
+        </div>
+    <div class="banner">
+        <h1>DEFINIÇÕES</h1>
+    </div>
+    <div id="content">
+        <div>
+            <img src="./static/imagens/scrum.png">
+        </div>
+        <div>
+            <h1 id="content" class="h1">Scrum</h1>
+            É um método ágil para gerenciar, desenvolver e sustentar produtos complexos, com a premissa deconseguir    produzir mais em equipes menores e auto-organizáveis.
+Geralmente o Scrum é usado em trabalhos com produtos de software, mas também pode ser empregado em várias outrasáreas  como educação, pesquisa, marketing e RH.
+    </div>
+
+        <script>
+            const toggleButton = document.getElementById('sidebar-toggle');
+            const sideBar = document.getElementById('sidebar');
+
+            toggleButton.addEventListener('click', ()=>{sideBar.classList.toggle('open')});
+            sideBar.addEventListener('click', ()=>{sideBar.classList.remove('open')})
+        </script>
+
+</body>
+</html>
