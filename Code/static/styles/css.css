@@ -3,7 +3,9 @@
 body {
   font-family: 'Livvic', sans-serif;
 }
+
 /* Página Base */
+
 #nav{
     position: absolute;
     width: 100%;
@@ -49,18 +51,23 @@ body {
     background: url(home.png);
 }
 
+/* fim da pagina base */
+
+
 /* pagina 3 de conteudo */
+
 .sub_header_links{
     display: flex;
     justify-content: center;
 }
 a {
-    color: #550F71; /* cor personalizada para o link */
-    text-decoration: none; /* remover sublinhado padrão */
+    color: #550F71; 
+    text-decoration: none; 
+    font-size: 140%
 }
       
 a:hover {
-    color: #AB1BE3; /* cor personalizada quando o link é hoverado */
+    color: #AB1BE3; 
 }
 
 .shlt{
@@ -73,15 +80,69 @@ a:hover {
     padding: 20px;
     background-color: #d181f0;
     margin-top: 2%;
-    width: 96%;
+  
     display: flex;
     justify-content: center;
     margin-left:4%;
-    /*margin-right:4%;*/
+    margin-right:4%;
+    
 }
 
 .box_txt{
 font-size:300%;
 color: aliceblue
 }
+
+.txt_topicos{
+    margin-left:6%;
+    color: #8121A6;
+    font-size: 280%;
+}
+
+.txt_basico{
+    margin-left: 6%;
+    max-width: 50%;
+    font-size: 130%;
+}
+
+.hr_int{
+    width: 92%;
+    border-color: #dfc7e8;
+    background-color: #dfc7e8;
+}
+
+.img{
+    width: 120%;
+}
+
+
+.div_geral{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.div_right{
+    display: inline-flex; 
+    width: 50%;
+    margin-left: 2;
+    margin-right: 10%;
+    max-width:30% ;
+}
+
+.div_left{
+    display: inline-flex;
+    width: flex;
+    margin-left: 6%;
+    margin-right: 20%;
+    max-width: 20%;
+
+}
+
+#div_a {
+    margin-top: 2%;
+}
+
+.
+
 /*fim da pagina 3 de conteudo*/
