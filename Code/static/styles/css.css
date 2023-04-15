@@ -123,19 +123,24 @@ color: aliceblue
 
 
 .div_right{
-    display: inline-flex; 
+ 
     width: 50%;
     margin-left: 2;
     margin-right: 10%;
     max-width:30% ;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+
 
 .div_left{
     display: inline-flex;
     width: flex;
     margin-left: 6%;
     margin-right: 20%;
-    max-width: 20%;
+    max-width: 40%;
 
 }
 
@@ -143,6 +148,18 @@ color: aliceblue
     margin-top: 2%;
 }
 
-.
+b{
+    color:#AB1BE3 ;
+}
+
+.div_txt {
+    align-self: flex-start;
+    margin-top: 2%;
+}
+
+.seta{
+    width: 2.5%;
+}
+
 
 /*fim da pagina 3 de conteudo*/
