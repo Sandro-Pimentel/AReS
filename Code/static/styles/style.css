@@ -1,12 +1,21 @@
 body{
     margin: 0;
+    font-family: 'Livvic';
+    font-size: 16px;
 }
 
+p{
+    margin-left: 7%;
+}
+
+a{
+    text-decoration: none;
+}
 /*Classes*/
 .title{
     color: white;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Livvic';
     font-style: italic;
 }
 
@@ -18,8 +27,6 @@ body{
     height: 5%;
     padding-bottom: 1%;
     padding-top: 1%;
-    /*padding-left: auto;
-    padding-right: auto;*/
     background-color: #8121A6;
 }
 
@@ -33,7 +40,7 @@ body{
 .links{
     display: flex;
     justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Livvic';
     color: #550F71;
     margin-left: 5%;
     margin-right: 5%;
@@ -49,30 +56,54 @@ body{
     margin-top: 4%;
     margin-left: 2%;
     border-radius:7px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Livvic';
     font-size: 26px;
     font-style: italic;
     color: white;
     background-color: #d181f0;
 }
 
-
-/*IDs*/
-#content{
+.content{
     display:flex;
     justify-content: space-between;
     margin: 5%;
 }
 
-#content.h1{
+.content.h1{
     display: flex;
     justify-content: center;
     color: #8121A6;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Livvic';
     font-size: 60px;
     font-style: italic;
 }
 
+.content.h1-1{
+    display: flex;
+    /*justify-content: center;*/
+    color: #8121A6;
+    font-family: 'Livvic';
+    font-size: 60px;
+    font-style: italic;
+}
+
+.content.h3{
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    color: #8121A6;
+    font-family: 'Livvic';
+    font-size: 45px;
+    font-style: italic;
+}
+
+.content li{
+    color: #8121A6;
+    font-size: 20px;
+    font-family: 'Livvic';
+}
+
+/*IDs*/
 #sidebar.open{
     transform: translateX(250px);
 }
@@ -94,3 +125,31 @@ body{
     transition: transform 0.3s ease-in-out;
 }
 
+#sidebar li{
+    color: white;
+}
+
+#sidebar h2{
+    margin-left: 7%;
+}
+
+#sidebar-toggle{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+#Agilidade{
+    width: 50%;
+    height: auto;
+}
+
+#Scrum{
+    width: 55%;
+    height: auto;
+}
+
+#Pilares{
+    width: 55%;
+    height: auto;
+}
