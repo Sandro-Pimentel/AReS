@@ -36,9 +36,9 @@ def main():
   #  return render_template(".html")
 
 
-#@app.route("/capitulo-4/")
+@app.route("/capitulo-4/")
 #def main():
-#    return render_template("capitulo4.html")
+    return render_template("conteudo4.html")
 
 
 #@app.route("/teste-4/")
