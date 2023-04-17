@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% block navbar %}
+    <title>Capítulo 2 - Responsabilidades e papéis</title>
+<body>
+    <!-- side bar \/ -->
+    <div id="sidebar">
+        <h2>barra lateral</h2>
+        <ul>
+            <a href="#"><li>Capítulo 1 - Definições</li></a><br>
+            <a href="#"><li>Capítulo 2 - Responsabilidades e papéis</li></a><br>
+            <a href="#"><li>Capítulo 3 - Artefatos do Scrum</li></a><br>
+            <a href="#"><li>Capítulo 4 - Eventos do Scrum</li></a><br>
+        </ul>
+    </div>
+
+    <header>
+        <div class="nav">
+            <div class="element">
+                <button id="sidebar-toggle"><img src="menu1.png"></button>
+            </div>
+            <div>
+                <b class="title">Capítulo 2</b>
+            </div>
+
+            <div class="element">
+                <a href="#"><img src="home1.png"></a>
+            </div>
+        </div>
+    </header>
+
+    <div id="page-content">
+            <div class="links">
+                <a href="#Agilidade">Product Owner</a>
+                <a href="#Scrum">Scrum Master</a>
+                <a href="#Pilares">Development Team</a>
+            </div>
+        <div class="banner">
+            <h1>RESPONSABILIDADE E PAPÉIS</h1>
+        </div>
+
+        <div class="content">
+            <div id="Agilidade">
+                <h1 class="content h1">Introdução</h1>
+                &nbsp  &nbsp  &nbsp  &nbsp Em um <b>time ágil</b>, existem 3 funções a serem definidas: <b>Product Owner</b>, <b>Scrum Master</b> e o <b>Scrum Team (ou Dev Team)</b>.<br><br>
+
+                &nbsp  &nbsp  &nbsp  &nbsp Nesse capítulo serão especificados os deveres que cada uma dessas funções terá no time para o sucesso do projeto.
+            </div>
+                <div>
+                    <img id="img" src="team.png">
+                </div>
+        </div>
+
+        <hr>
+
+        <div class="content">
+            <div id="Scrum">
+                <h1 class="content h1">Product Owner</h1>
+                &nbsp  &nbsp  &nbsp  &nbsp O <b>Product Owner (P.O.)</b> é o responsável por direcionar a equipe de desenvolvimento (Dev Team) definindo as metas, a visão do produto, novos produtos e a ordem em que será feito. Também é seu papel fazer o <b>Backlog do Produto</b> e garantir o <b>Retorno Sobre o Investimento(Return Of Investment).</b> <br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp O <b>P.O.</b> deve assegurar o valor do trabalho feito pelo resto da equipe, para isso é necesário uma boa comunicação e transparência para deixar claro o significado de cada item do <b>Backlog</b> e os objetivos do projeto e das <b>Sprints.</b> <br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp Um bom <b>P.O.</b> é aquele que compreende bem as exigências do cliente e do mercado, assim tendo noção do que é importante tanto para o projeto quanto para sua equipe. <br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp Uma empresa pode fazer um comitê para catalogar novas funcionalidades para o produto, mas o <b>P.O.</b> ainda tem a função de definir se essa nova funcionalidade irá entrar no <b>Backlog do Produto</b> e quando será implementada. <br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp O <b>Product Owner</b> tem o poder de cancelar uma <b>Sprint</b> caso conclua que sua meta não faz mais sentido, porém, ele tem em mente dos impactos negativos dessa escolha sobre a equipe de desenvolvimento. <br><br>
+            </div>
+                <div>
+                    <img src="scrum.png">
+                </div>
+        </div>
+
+        <div class="content">
+            <div>
+                <img src="scrum_master.png">
+            </div>
+            <div id="Agilidade">
+                <h1 class="content h1">Scrum Master</h1>
+                &nbsp  &nbsp  &nbsp  &nbsp O Scrum Master vai ser o membro do time que mais conhece os processos da métodologia Scrum. E pode ser difícil seguir como um Scrum Master, pois sendo ele o membro que mais conhece o Scrum, seu trabalho é de orientar o P.O. na criação e ordenação do Backlog do Produto, garantir que a equipe está seguindo as regras e Valores do Scrum, facilitar os Eventos do Scrum e até ajudar a remover impedimentos, mas sem imposição de autoridade. <br> <br>
+                &nbsp  &nbsp  &nbsp  &nbsp Em questão de processos, o Scrum Master é um líder, e mesmo sendo um membro fundamental do Time de Desenvolvimento, ele não tem um papel ativo no desenvolvimento do processo de engenharia do time. O Scrum Master é um facilitador, então ao invés de participar de forma ativa no desenvolvimento, ele vai usar técnicas de facilitação e coaching para ajudar os membros do DevTeam a visualizar os problemas e encontrarem boas soluções. Esse papel do Scrum Master faz com que constantemente o time esteja se desafiando. Além de trabalhar para que os membros do time sejam cada vez mais eficientes e sempre de acordo com os 12 Princípios do método Ágil. <br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp Durante os Eventos do Scrum  é o responsável por fazer a reunião fluir adequadamente, usando técnicas de facilitação, embora não seja ele o responsável por conduzir as reuniões. Como os Eventos do Scrum tem uma duração fixa é muito importante que os problemas que aconteçam durante eles sejam resolvidos rapidamente.<br><br>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="Scrum">
+                <h1 class="content h1">Dev Team</h1>
+                &nbsp  &nbsp  &nbsp  &nbsp O Time de Desenvolvimento é o conjunto de todos os membros responsáveis pelo desenvolvimento do projeto do Scrum, sendo composto por diversos perfis profissionais que vão compor a equipe como analistas, designers, desenvolvedores, arquitetos, testadores, etc. Com isso, o time deve ser autossuficiente para conseguir alcançar todas as metas das Sprints<br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp O Dev Team é responsável por desenvolver os incrementos apresentáveis do produto e decidir o tamanho de cada item do Product Backlog. Também é essencial que o time seja auto-gerenciado e auto-organizado, isso significa que nem o Scrum Master tem que definir como a equipe deve desenvolver os itens do Backlog para torná-los algo entregável, assim, para que tudo ocorra bem, os membros da equipe têm que ter uma boa relação entre si e uma clara comunicação. Nenhum membro pode ocultar ou mentir o que esá sendo feito para não atrapalhar o projeto como um todo.<br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp O auto-gerenciamento do time vem da capacidade de gernciarem as tarefas e o tempo de cada um da equipe, assim como assegurar a qualidade do trabalho entregue. Para que o gerenciamento seja mais fácil, é recomendável que um Time de Desenvolvimento não contenha menos de três pessoas ou mais que nove, caso contrário, a distribuição de tarefas será bem mais difícil.<br><br>
+                
+                <h3>Um time sempre passa por <b>4 estágios:</b> </h3>
+                <ul>
+                    <li><b>Forming:</b> Momento de formação da equipe, onde os membro ainda não se conhecem.</li>
+                    <li><b>Storming:</b> Nessa fase os membros se conhecem melhor, descobrindo seus hábitos e comportamento.</li>
+                    <li><b>Norming:</b> É onde a equipe começa o auto-gerenciamento, definindo regras e normas entre eles.</li>
+                    <li><b>Performing: </b> É o momento onde o time começa a atuar em conjunto, tendo uma melhor performance em seu desenvolvimento.</li>
+                </ul>
+            </div>
+            <div>
+                <img id="img" src="dev.png">
+            </div>
+        </div>
+    </div>
+{% endblock %}

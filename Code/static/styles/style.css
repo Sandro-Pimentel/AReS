@@ -11,6 +11,10 @@ p{
 a{
     text-decoration: none;
 }
+
+b{
+    color: #8121A6;
+}
 /*Classes*/
 .title{
     color: white;
@@ -152,4 +156,13 @@ a{
 #Pilares{
     width: 55%;
     height: auto;
+}
+
+#img{
+    width: 406px;
+    height: 406px;
+}
+
+hr{
+    width: 95%; 
 }
