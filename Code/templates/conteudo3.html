@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;700&display=swap" rel="stylesheet">
-
-
-</head>
-<body>
-    
+{% extends 'base.html' %}
+{% block navbar %}
 <div class="sub_header_links">
     <!--shlt: sub_header_links_txt -->
     <a class="shlt" href="">Sprints</a> <a class="shlt" href="">Daily Scrum</a> <a class="shlt" href="">Sprint Review</a>
@@ -89,6 +76,4 @@
     <img class="seta" src="imagens/seta_dir.png" alt="">
     
 </div>
-
-</body>
-</html>
+{% endblock %}
