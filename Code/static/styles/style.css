@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic&display=swap');
 body{
     margin: 0;
     font-family: 'Livvic';
@@ -122,7 +123,7 @@ b{
     position: fixed;
     left: -250px;
     /*fonte*/
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Livvic', sans-serif;
     color: white ;
     /**/
     transform: translateX(0);

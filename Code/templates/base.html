@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;700&display=swap" rel="stylesheet">
-    <title>Capítulo 1 - Definições</title>
-
+    {% block  title %}
+    {% endblock %}
 </head>
 <body>
     <!-- side bar \/ -->
     <div id="sidebar">
-        <h2>barra lateral</h2>
+        <h2> Seleção de Capítulos </h2>
         <ul>
             <a href="\conteudo1"><li>Capítulo 1 - Definições</li></a><br>
             <a href="\conteudo2"><li>Capítulo 2 - Responsabilidades e papéis</li></a><br>
@@ -29,10 +29,10 @@
             <div class="element">
                 <button id="sidebar-toggle"><img src="../static/imagens/menu1.png"></button>
             </div>
-            <div>
-                <b class="title">Capítulo 1</b>
-            </div>
-
+        <div>
+        {% block navtitle %}
+        {% endblock %}
+        </div>
             <div class="element">
                 <a href="\index"><img src="../static/imagens/home1.png"></a>
             </div>

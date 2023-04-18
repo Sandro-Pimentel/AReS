@@ -1,5 +1,11 @@
 {% extends 'base.html' %}
 {% block navbar %}
+{% block title %}
+<title> Responsabilidades e Papéis </title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 2</b>
+{% endblock %}
     <title>Capítulo 2 - Responsabilidades e papéis</title>
 <body>
     <!-- side bar \/ -->
@@ -12,21 +18,6 @@
             <a href="#"><li>Capítulo 4 - Eventos do Scrum</li></a><br>
         </ul>
     </div>
-
-    <header>
-        <div class="nav">
-            <div class="element">
-                <button id="sidebar-toggle"><img src="menu1.png"></button>
-            </div>
-            <div>
-                <b class="title">Capítulo 2</b>
-            </div>
-
-            <div class="element">
-                <a href="#"><img src="home1.png"></a>
-            </div>
-        </div>
-    </header>
 
     <div id="page-content">
             <div class="links">
@@ -46,7 +37,7 @@
                 &nbsp  &nbsp  &nbsp  &nbsp Nesse capítulo serão especificados os deveres que cada uma dessas funções terá no time para o sucesso do projeto.
             </div>
                 <div>
-                    <img id="img" src="team.png">
+                    <img id="img" src="../static/imagens/team.png">
                 </div>
         </div>
 
@@ -62,13 +53,13 @@
                 &nbsp  &nbsp  &nbsp  &nbsp O <b>Product Owner</b> tem o poder de cancelar uma <b>Sprint</b> caso conclua que sua meta não faz mais sentido, porém, ele tem em mente dos impactos negativos dessa escolha sobre a equipe de desenvolvimento. <br><br>
             </div>
                 <div>
-                    <img src="scrum.png">
+                    <img src="../static/imagens/scrum.png">
                 </div>
         </div>
 
         <div class="content">
             <div>
-                <img src="scrum_master.png">
+                <img src="../static/imagens/scrum_master.png">
             </div>
             <div id="Agilidade">
                 <h1 class="content h1">Scrum Master</h1>
@@ -94,7 +85,7 @@
                 </ul>
             </div>
             <div>
-                <img id="img" src="dev.png">
+                <img id="img" src="../static/imagens/dev.png">
             </div>
         </div>
     </div>

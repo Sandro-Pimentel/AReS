@@ -8,7 +8,7 @@ def index():
     return render_template("index.html")
 
 @app.route("/conteudo1")
-def cap1():
+def conteudo1():
     return render_template("conteudo1.html")
 
 
@@ -17,9 +17,9 @@ def cap1():
  #   return render_template(".html")
 
 
-#@app.route("/capitulo-2/")
-#def cap2():
-#    return render_template("capitulo2.html")
+@app.route("/conteudo2")
+def conteudo2():
+    return render_template("conteudo2.html")
 
 #@app.route("/teste-2/")
 #def main():
@@ -27,7 +27,7 @@ def cap1():
 
 
 @app.route("/conteudo3")
-def main():
+def conteudo3():
     return render_template("conteudo3.html")
 
 
@@ -36,8 +36,8 @@ def main():
   #  return render_template(".html")
 
 
-@app.route("/capitulo-4/")
-#def main():
+@app.route("/conteudo4")
+def conteudo4():
     return render_template("conteudo4.html")
 
 
