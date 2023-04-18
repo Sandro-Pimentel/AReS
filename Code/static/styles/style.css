@@ -202,7 +202,7 @@ hr{
 
 .box_index{
     background-color: #FFFFFF;
-    margin-top: 25%;
+    margin-top: 23%;
     margin-left: 10%;
     margin-right: 10%;
     justify-content: space-between;    
@@ -215,7 +215,7 @@ hr{
     border-radius: 300px;
     border: none;
     font-size: 200%;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left: 5%;
 }
 .btn_cont_b{
@@ -225,14 +225,17 @@ hr{
     border-radius: 300px;
     border: none;
     font-size: 200%;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left: 12%;
 }
 
 .div_geral_index{
     display: flex;
     justify-content: space-between;
+    margin-top: 8%;
+
 }
+
 
 
 .div_right_index{
