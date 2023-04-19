@@ -168,6 +168,33 @@ hr{
     width: 95%; 
 }
 
+.seta{
+    width:50%;
+}
+
+A {
+    text-decoration: none;
+} 
+
+/* link que ainda não foi visitado */
+a:link {
+    color: #AB1BE3;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: #AB1BE3;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #8121A6;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: #AB1BE3;
+ }
 
 /* pagina inicial (index)*/
   
