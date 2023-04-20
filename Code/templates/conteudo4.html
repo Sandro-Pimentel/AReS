@@ -4,67 +4,74 @@
 <title> Eventos do Scrum </title>
 {% endblock %}
 {% block navtitle %}
-    <b class="title">Capítulo 3</b>
+    <b class="title">Capítulo 4</b>
 {% endblock %}
 <div id="page-content">
         <div class="links">
-            <a href="#sprintbacklog">Sprint Backlog</a>
-            <a href="#productbacklog">Product Backlog</a>
-            <a href="#burndownchart">Burndown Chart</a>
+            <a href="#SB">Sprint Backlog</a>
+            <a href="#PB">Product Backlog</a>
+            <a href="#BC">Burndow Chart</a>
         </div>
     <div class="banner">
         <h1>ARTEFATOS DO SCRUM</h1>
     </div>
+    <div class="content">
 
- <div class="content">
-   <div id="Sprint Backlog">
-       <h1 class="content h1">Introdução</h1>
-              &nbsp  &nbsp  &nbsp  &nbsp O Scrum possui alguns artefatos que dão uma visão do andamento do projeto e das Sprints. Os artefatos de Scrum são: <b id="c4">Product Backlog, Sprint Backlog, Product Increment, Definition of Done e Burndown Charts</b>
-
- <div class="content">
-    <div id="Sprint Backlog">
-        <h1 class="content h1">Sprint Backlog</h1>
-              &nbsp  &nbsp  &nbsp  &nbsp <b>Sprint Backlog</b> é uma lista de tarefas que o <b>Time de Desenvolvimento</b> deve realizar durante uma <b>sprint</b>, que é um período de tempo curto e definido em metodologias ágeis de desenvolvimento de software, como o <b>Scrum</b>. Essa lista é criada a partir dos itens do <b>Product Backlog</b> que foram priorizados para o sprint em questão.
-
-              &nbsp  &nbsp  &nbsp  &nbsp  O <b>Sprint Backlog</b> é uma ferramenta essencial para o Scrum, pois permite que o <b>Time de Desenvolvimento</b> tenha uma visão clara das tarefas a serem realizadas durante o <b>sprint</b>, facilitando o planejamento, execução e acompanhamento do trabalho. Além disso, o <b>Sprint Backlog</b> é atualizado diariamente durante a reunião diária (<b>Daily Scrum</b>), permitindo que o time ajuste as tarefas de acordo com as necessidades e mudanças que surgirem durante o <b>sprint</b>.
-         </div>
-    </div>
-        <div>
-            <img src="../static/imagens/sprintbacklog.png">
+        <div id="Scrum">
+            <h1 class="content h1">Introdução</h1>
+            &nbsp  &nbsp  &nbsp  &nbsp O Scrum possui alguns artefatos que dão uma visão do andamento do projeto e das Sprints. Os artefatos de Scrum são: <b id="c4">Product Backlog, Sprint Backlog, Product Increment, Definition of Done e Burndown Charts</b>
         </div>
 
- <div class="content">
-   <div id="Product Backlog">
-        <h1 class="content h1">Product Backlog</h1>
+    </div>
+    <hr>
+    <div class="content">
+
+        <div id="Scrum">
+            <h1 id="SB" class="content h1">Sprint backlog</h1>
+            &nbsp  &nbsp  &nbsp  &nbsp <b>Sprint Backlog</b> é uma lista de tarefas que o <b>Time de Desenvolvimento</b> deve realizar durante uma <b>sprint</b>, que é um período de tempo curto e definido em metodologias ágeis de desenvolvimento de software, como o <b>Scrum</b>. Essa lista é criada a partir dos itens do <b>Product Backlog</b> que foram priorizados para o sprint em questão. <br>
+
+            &nbsp  &nbsp  &nbsp  &nbsp  O <b>Sprint Backlog</b> é uma ferramenta essencial para o Scrum, pois permite que o <b>Time de Desenvolvimento</b> tenha uma visão clara das tarefas a serem realizadas durante o <b>sprint</b>, facilitando o planejamento, execução e acompanhamento do trabalho. Além disso, o <b>Sprint Backlog</b> é atualizado diariamente durante a reunião diária (<b>Daily Scrum</b>), permitindo que o time ajuste as tarefas de acordo com as necessidades e mudanças que surgirem durante o <b>sprint</b>.
+      </div>
+      <div>
+        <img id="img" src="../static/imagens/sprintbacklog.png">
+    </div>
+    </div>
+
+    <div class="content">
+        <div>
+            <img id="img" src="../static/imagens/productbacklog.png">
+        </div>
+        <div id="Agilidade">
+            <h1 id="PB" class="content h1">Product Backlog</h1>
             &nbsp  &nbsp  &nbsp  &nbsp <b>Product Backlog</b> é uma lista de itens priorizados que descrevem as <b>funcionalidades e requisitos</b> de um produto a ser desenvolvido em metodologias ágeis de desenvolvimento de software, como o <b>Scrum</b>. Cada item é descrito por meio de user <b>stories</b>, que são narrativas curtas e simples que descrevem o que o usuário deseja e o que o produto deve fazer para atender a essa necessidade.</p>
 
             &nbsp  &nbsp  &nbsp  &nbsp As <b>user stories</b> podem ser alteradas durante o projeto, já que a <b>metodologia ágil</b> prevê a adaptação às mudanças e necessidades do cliente. Por isso, o <b>Product Backlog</b> é considerado um documento <b>vivo e dinâmico</b>, que pode ser atualizado a qualquer momento de acordo com as mudanças de prioridades e necessidades do cliente. Essa flexibilidade permite que o produto final atenda de forma mais eficiente às <b>necessidades e expectativas do cliente.</b>
 
             &nbsp  &nbsp  &nbsp  &nbsp Além disso, é importante ressaltar que o <b>Product Owner</b> é responsável por gerenciar o <b>Product Backlog</b> e garantir que as alterações sejam feitas de forma estratégica e organizada, levando em consideração o <b>impacto das mudanças</b> nas entregas e no prazo do projeto. O objetivo é manter o <b>Product Backlog</b> sempre atualizado e alinhado com a visão e estratégia do produto, garantindo que o produto atenda às necessidades do cliente de forma eficaz.
-       </div>
-    </div>
-          <div>
-            <img src="../static/imagens/productbacklog.png">
-          </div>
-
-<div class="content">
-    <div id="Burndown Chart">
-        <h1 class="content h1-1">Burndown Chart</h1>
-              &nbsp  &nbsp  &nbsp  &nbsp <b>Burndown Chart</b> é uma ferramenta gráfica utilizada em <b>metodologias ágeis</b> de desenvolvimento de software, como o <b>Scrum</b>, para medir e acompanhar o progresso do <b>Time de Desenvolvimento</b> em relação às metas estabelecidas para o <b>sprint</b>. O gráfico mostra a quantidade de trabalho que ainda precisa ser realizado, comparando com o tempo disponível para conclusão do <b>sprint</b>.
-
-              &nbsp  &nbsp  &nbsp  &nbsp  Através do <b>Burndown Chart</b>, é possível visualizar a evolução do trabalho, identificar possíveis atrasos e planejar as atividades que ainda precisam ser realizadas. Ele também ajuda o <b>Time de Desenvolvimento</b> a manter o foco nas tarefas <b>mais importantes</b> e a tomar decisões de forma mais eficiente, permitindo que o sprint seja concluído com sucesso.
-
-              &nbsp  &nbsp  &nbsp  &nbsp   O <b>Burndown Chart</b> é atualizado diariamente pelo <b>DevTeam</b>, de forma que ele possa monitorar seu progresso em relação às metas estabelecidas para o <b>sprint</b>. Dessa forma, ele se torna uma ferramenta importante para o <b>gerenciamento do tempo</b> e a tomada de decisões eficientes durante o desenvolvimento do produto.
-         </div>
-    </div>
-        <div>
-            <img src="../static/imagens/burndown.png">
         </div>
 
+
+    </div>
+
+    <div class="content">
+        <div id="Pilares">
+            <h1 id="BC" class="content h1-1">Burndown Chart</h1>
+            &nbsp  &nbsp  &nbsp  &nbsp <b>Burndown Chart</b> é uma ferramenta gráfica utilizada em <b>metodologias ágeis</b> de desenvolvimento de software, como o <b>Scrum</b>, para medir e acompanhar o progresso do <b>Time de Desenvolvimento</b> em relação às metas estabelecidas para o <b>sprint</b>. O gráfico mostra a quantidade de trabalho que ainda precisa ser realizado, comparando com o tempo disponível para conclusão do <b>sprint</b>.
+
+            &nbsp  &nbsp  &nbsp  &nbsp  Através do <b>Burndown Chart</b>, é possível visualizar a evolução do trabalho, identificar possíveis atrasos e planejar as atividades que ainda precisam ser realizadas. Ele também ajuda o <b>Time de Desenvolvimento</b> a manter o foco nas tarefas <b>mais importantes</b> e a tomar decisões de forma mais eficiente, permitindo que o sprint seja concluído com sucesso.
+
+            &nbsp  &nbsp  &nbsp  &nbsp   O <b>Burndown Chart</b> é atualizado diariamente pelo <b>DevTeam</b>, de forma que ele possa monitorar seu progresso em relação às metas estabelecidas para o <b>sprint</b>. Dessa forma, ele se torna uma ferramenta importante para o <b>gerenciamento do tempo</b> e a tomada de decisões eficientes durante o desenvolvimento do produto.
+        </div>
+        <div>
+            <img id="img" src="../static/imagens/burndown.png">
+        </div>
+
+    </div>
     <div class="content">
         <div>
             <a href="/conteudo3" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>            
+        </div>
+
     </div>
-</div>
 </div>
 {% endblock %}
