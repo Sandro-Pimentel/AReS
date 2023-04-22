@@ -15,6 +15,8 @@
 ##  Protótipo do Figma
 * [Protótipo](https://www.figma.com/proto/0AKYScVS37OimqYJeVhm12/Prot%C3%B3tipo(AReS)?node-id=112-4&scaling=min-zoom&page-id=3%3A5&starting-point-node-id=112%3A4)
 
+![](https://github.com/Sandro-Pimentel/AReS/blob/main/Images/prototipo.gif)
+
 ## 📆 Cronograma de entrega das sprints
 
 
@@ -66,3 +68,6 @@
 |Léo de Paula Naito|Scrum Team|[LNaito](https://github.com/LNaito)|[LinkedIn](https://br.linkedin.com/in/)|
 |Pablo Félix Barbosa|Scrum Team|[PABBARBO](https://github.com/PABBARBO)|[LinkedIn](https://br.linkedin.com/in/pablo-f%C3%A9lix-barbosa-9401a2165)|
 |Vitor Henrique Saborito da Silva Rocha|Scrum Team|[VituuSaborito](https://github.com/VituuSaborito)|[LinkedIn](https://br.linkedin.com/in/vitor-henrique-saborito-216219268)|
+
+## 🔎 Site Navegavel
+![](https://github.com/Sandro-Pimentel/AReS/blob/main/Images/prototipo_site.gif)
