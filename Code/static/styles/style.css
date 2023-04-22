@@ -235,7 +235,7 @@ a:link {
     justify-content: space-between;    
 }
 
-.btn_cont_a{
+a.btn_cont_a{
     background-color: #AB1BE3;
     color: white;
     padding: 6% 15%;
@@ -245,7 +245,7 @@ a:link {
     margin-top: 6%;
     margin-left: 5%;
 }
-.btn_cont_b{
+a.btn_cont_b{
     background-color: #AB1BE3;
     color: white;
     padding: 6% 15%;
