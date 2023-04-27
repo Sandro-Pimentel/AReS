@@ -55,6 +55,11 @@
 + GitHub - Utilizado para entrega da documentação.
 + Planner - Utilizado para organização da equipe. 
 + Excel - Utilizado para organização das tarefas.
++ Visual Studio Code - Utilizado como plataforma de edição de códigos.
++ HTML 5 - Utilizado para a marcação do site.
++ CSS 3 - Utilizado para a estilização do site.
++ JavaScript - Utilizado para a animação da barra de navegação do site.
++ Flask - 
 
 
 ## 👨‍💻 Dev Team
