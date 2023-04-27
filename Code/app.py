@@ -50,6 +50,10 @@ def conteudo4():
 #def testefinal():
 #    return render_template("testefinal.html")
 
-@app.route("/testebase")
-def teste():
-    return render_template("baseteste.html")
+#@app.route("/testebase")
+#def teste():
+#    return render_template("baseteste.html")
+
+#@app.route("/baseteste")
+#def teste2():
+#    return render_template("testebase.html")
