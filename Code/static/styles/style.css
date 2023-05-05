@@ -6,7 +6,7 @@ body{
 }
 
 p{
-    margin-left: 7%;
+    margin-left: 5%;
 }
 
 a{
@@ -132,6 +132,9 @@ b{
 
 #sidebar li{
     color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 7%;
 }
 
 #sidebar h2{
@@ -165,7 +168,7 @@ b{
 }
 
 hr{
-    width: 95%; 
+    width: 95%;
 }
 
 .seta{
@@ -174,30 +177,30 @@ hr{
 
 A {
     text-decoration: none;
-} 
+}
 
 /* link que ainda não foi visitado */
 a:link {
     color: #AB1BE3;
  }
- 
+
  /* link que foi visitado */
  a:visited {
      color: #AB1BE3;
  }
- 
+
  /* mouse over */
  a:hover {
      color: #8121A6;
  }
- 
+
  /* link selecionado */
  a:active {
      color: #AB1BE3;
  }
 
 /* pagina inicial (index)*/
-  
+
 .bd_index{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,15,113,1) 53%, rgba(171,27,227,1) 100%);
@@ -229,10 +232,8 @@ a:link {
 
 .box_index{
     background-color: #FFFFFF;
-    margin-top: 23%;
-    margin-left: 10%;
-    margin-right: 10%;
-    justify-content: space-between;    
+    margin: 7%;
+    justify-content: space-between;
 }
 
 a.btn_cont_a{
@@ -242,8 +243,6 @@ a.btn_cont_a{
     border-radius: 300px;
     border: none;
     font-size: 200%;
-    margin-top: 6%;
-    margin-left: 5%;
 }
 a.btn_cont_b{
     background-color: #AB1BE3;
@@ -252,8 +251,6 @@ a.btn_cont_b{
     border-radius: 300px;
     border: none;
     font-size: 200%;
-    margin-top: 6%;
-    margin-left: 12%;
 }
 
 .div_geral_index{
@@ -263,10 +260,13 @@ a.btn_cont_b{
 
 }
 
-
+.div_btns_index{
+    display: flex;
+    justify-content: space-around;
+}
 
 .div_right_index{
- 
+
     width: 100%;
 
     margin-right: 5%;
