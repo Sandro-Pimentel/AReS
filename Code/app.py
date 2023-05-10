@@ -46,9 +46,9 @@ def teste4():
    return render_template("teste-artefatos.html")
 
 
-@app.route("/teste-final")
-def testefinal():
-   return render_template("testefinal.html")
+@app.route("/examefinal")
+def examefinal():
+   return render_template("examefinal.html")
 
 #@app.route("/testebase")
 #def teste():

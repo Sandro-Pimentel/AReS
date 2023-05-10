@@ -304,3 +304,35 @@ color: #FFFFFF;
 }
 
 /* fim da pagina inicial */
+/* Estilo do Exame Final */
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.spnQtd{
+    text-align: end;
+}
+
+button {
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #8121A6;
+    color: white;
+}
+
+.finish{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.finish button{
+    text-align: center;
+}
