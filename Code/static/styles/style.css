@@ -355,9 +355,15 @@ button {
     margin-right: 5%
 }
 
+.txt_qt{
+    text-align: justify;
+    font-size: 150%;  
+
+}
+
 .qt{
     margin-left: 5%;
-    margin-bottom: 50%;
+    margin-bottom: 7%;
 }
 
 /* Estilizando o input radio */
