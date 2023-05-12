@@ -336,3 +336,48 @@ button {
 .finish button{
     text-align: center;
 }
+
+.box_teste{
+    background-color: #c9a2d8;
+    border-radius: 10px;
+    align-items: center;
+    width: 66%;
+    margin-left: 17%;
+    margin-right: 35%;
+}
+
+
+.txt_box{
+    text-align: justify;  
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 150%;
+    margin-right: 5%
+}
+
+.qt{
+    margin-left: 5%;
+    margin-bottom: 50%;
+}
+
+/* Estilizando o input radio */
+input[type="radio"] {
+    /* -webkit-appearance: none;
+    -moz-appearance: none; */
+    appearance: none;
+    display: inline-flex;
+    justify-content: center;
+    width: 17px; /* Largura do elemento */
+    height: 17px; /* Altura do elemento */
+    border-radius: 50%; /* Forma circular */
+    background-color: #e8d2fa;
+    border: 2px solid #e8d2fa; /*Borda do elemento*/
+  }
+  
+  /* Estilizando a bolinha selecionada */
+  input[type="radio"]:checked {
+    background-color: rgb(191, 127, 252); /* Cor de fundo da bolinha selecionada */
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out /* Aumenta o tamanho da bolinha em 1.5 vezes */
+  }
+  
