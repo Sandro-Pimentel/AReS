@@ -324,7 +324,7 @@ color: #FFFFFF;
     text-align: end;
 }
 
-button {
+/* button {
     width: 100%;
     text-align: start;
     padding: 5px;
@@ -333,7 +333,7 @@ button {
     cursor: pointer;
     background-color: #8121A6;
     color: white;
-}
+} */
 
 .finish{
     display: none;
@@ -356,9 +356,52 @@ button {
 
 
 .txt_box{
-    text-align: justify;
+    text-align: justify;  
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: 150%;
     margin-right: 5%
+}
+
+.txt_qt{
+    text-align: justify;
+    font-size: 150%;  
+
+}
+
+.qt{
+    margin-left: 5%;
+    margin-bottom: 7%;
+}
+
+/* Estilizando o input radio */
+input[type="radio"] {
+    /* -webkit-appearance: none;
+    -moz-appearance: none; */
+    appearance: none;
+    display: inline-flex;
+    justify-content: center;
+    width: 17px; /* Largura do elemento */
+    height: 17px; /* Altura do elemento */
+    border-radius: 50%; /* Forma circular */
+    background-color: #e8d2fa;
+    border: 2px solid #e8d2fa; /*Borda do elemento*/
+  }
+  
+  /* Estilizando a bolinha selecionada */
+  input[type="radio"]:checked {
+    background-color: rgb(191, 127, 252); /* Cor de fundo da bolinha selecionada */
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out /* Aumenta o tamanho da bolinha em 1.5 vezes */
+  }
+
+#btn_exame {
+    margin-left: 40%;
+    width: 20%;
+    padding-top: 2%;
+    text-align: center;
+    border-radius: 50px; /* Define o raio das bordas para obter o efeito arredondado */
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Alinha horizontalmente o conteúdo ao centro */
+    align-items: center; /* Alinha verticalmente o conteúdo ao centro */
 }
