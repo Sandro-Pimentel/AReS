@@ -1,0 +1,50 @@
+Perguntas Capitulo 2
+
+1)De quem é o papel responsável por gerenciar o Product Backlog e garantir o Retorno Sobre o investimento do produto?
+Resposta:Product Owner
+errada: Scrum Master
+errada: Gerenciador 
+errada: lider do time de desenvolvimento
+
+2)Para o sucesso do produto por parte do Product Owner, ele deve estar as necessidades do ...?
+Resposta: do Negócio e do Mercado
+errada: do Master e do time de desenvolvimento
+errada: do mercado e dos concorrentes
+errada: do Product Owner e do cliente
+
+3)Em um time scrum, qual o papel deve ter o maior conhecimento sobre o método Scrum?
+Resposta: Scrum Master
+errada: lider do time de desenvolvimento
+errada: Gerenciador
+errada: Product Owner 
+
+4)Por que é bom e importante para um time de desenvolvimento ser composto por diferentes perfis profissionais como arquitetos, analistas, designers, desenvolvedores, testadores?
+Resposta : Para ter diferentes opiniões e pontos de vistas, além da experiência diversificada para trazer maior criatividade.
+errada: Para cada um ficar na sua área e resolver os seus problemas.
+errada: Para não ter necessidade de interação já que cada um é especialista em sua área.
+errada: Para ter mais pessoas e quanto mais pessoas mais  produtividade.
+
+5)Em relação ao tamanho de um time de desenvolvimento, como deve ser feito o dimensionamento da equipe?
+resposta:os times devem ser pequenos o suficiente de forma a se manter ágil e produtivo, e grande o suficiente de forma que a coordenação  
+dos membros não cause problemas.
+errada: o time deve ter no máximo 3 membros para manter a agilidade, pois acima disso fica difícil de gerenciar a equipe de desenvolvimento.
+errada: o time deve ter no mínimo 9 membros para manter poder dar conta de todas as tarefas, pois abaixo disso fica difícil de ser produtiva a equipe de desenvolvimento.
+errada: o time deve ter 6 membros, nem mais nem menos, só pode ter esse número porque é o perfeito para ter um time equilibrado e ágil em todos sentidos.
+
+6)Sendo o Scrum Master o responsável em ser o que mais sabe sobre o metodo Scrum, como ele deve se comportar ?
+resposta: Como agente de mudanças para que o restante da organização ajude a suportar Scrum.
+errada: Como lider do time mostrando o que dever ser feito.
+errada: Como gerenciador da equipe mostrando quais são os requisitos a serem feitos.
+errada: Como pessoa que entra em contato com cliente para definir as ações a serem realizadas.
+
+7)Em relação aos processos de criação do produto, quem é responsável pelas pequenas tarefas diárias, pelo andamento das ações,qualidade,prazo entre outros fatores do microgerenciamento da produção do produto?
+resposta:Time de Desenvolvimento
+errada: Scrum Master
+errada: Gerenciador 
+errada: Product Owner
+
+8)Dentro de um time Scrum, o Product Owner é o responsável por gerenciar o produto de forma a assegurar o valor do trabalho executado pelo Development Team,o que torna esse papel muito importante para a equipe, sabendo disso quantos Product Owner podem ter dentro da equipe Scrum?
+resposta: Somente Um
+errada: Podem haver no máximo 2
+errada: Podem haver no máximo 3
+errada: Não há uma quantidade limite.
