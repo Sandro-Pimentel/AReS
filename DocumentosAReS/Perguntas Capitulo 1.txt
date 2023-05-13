@@ -1,0 +1,60 @@
+Perguntas  Capitulo 1
+          
+
+
+1)Visando obter uma maior produtividade, Qual dos pilares do Scrum deve ser usado para detectar problemas e verificar o andamento do projeto?
+Resposta: Inspeção
+errada:Organização
+errada:Independência
+errada: Transpência
+
+2)O mundo da tecnologia e mercado está sempre em mudança e sempre se atualizando, para se manter sempre pronto para entregar o melhor e maior valor de produto, Qual o pilar do Scrum que time precisa ter de forma forte   para lidar tanto com as mudanças do mercado quanto com as alterações do projeto? 
+Resposta: Adaptação
+errada:Organização
+errada:Independência
+errada: Inspeção
+
+
+3)Em relação aos papéis de um time scrum,  o que cada integrante precisa ter em mente para que o time funcione da melhor maneira?
+Resposta: O scrum possui pouco papéis mas bem definidos e não há cargos, então deve haver autonomia e produtividade dos membros sem ter que ficar esperando ordens de um chefe/gerente.
+errada:Para funcionar bem o Scrum precisa de um membro que genrencie e dite as ações a serem feitas.
+errada:O Scrum Master por ser quem mais sabe sobre o Srum é quem gerencia o time de desenvolvimento.
+errada:O Product Owner por ser quem entra em cliente final é quem gerencia o time de desenvolvimento
+
+4)Além do manifesto ágil e seus princípios, o Scrum possui valores voltados ao comportamento humano. Quais são eles ?
+Resposta: Foco, coragem, Sinceridade, Comprometimento e Respeito.
+errada:Persistência, independência, paciência e clarividência.
+errada:Organização, otimização, mecanicanização e padronização.
+errada:Organização,Persistência, calma e leveza.
+
+5)"Indivíduos e interações mais que processos e ferramentas" Quando no manisfesto ágil é dito esta frase,fica claro que o mais importante é?
+Resposta: O valor único da pessoa e a interação do grupo mais do que os processos e as ferramentas.
+errada:Os processos e as ferramentas são mais importantes porque são elas que geram resultados.
+errada:Os processos e as ferramentas não possuem valor nenhum.
+errada:Os indivíduos e as interações tem o mesmo valor que os processos e ferramentas.
+
+6)Uma das frases do Manifesto Ágil é a seguinte "Software em funcionamento mais que documentação abrangente",a partir dela pode se concluir que?
+Resposta: Que o Software possui mais valor agregado do que a documentação pois é o software que pode trazer retorno financeiro.
+errada: A documentação possui para o cliente o mesmo valor e importância que o funcionamento do software.
+errada: O software deve ser entregue primeiro porque é mais facíl e a documentação não tem nenhuma importância.
+errada: A documentação deve ser prioridade por ter maior dificuldade e importância.
+
+7) Fazer as Dailys Scrum constantemente e com os integrantes usando o valor da sinceridade para comunicar a verdade sobre a situação tras ao grupo um forte pilar do Scrum que é o Pilar da?
+resposta: Transparência
+errada Organização
+errada: Empatia
+errada: Inspecão
+
+8)Quando no manifesto ágil aparece a seguinte frase'Responder a mudanças mais que seguir um plano", o que ela quer dizer?
+resposta: Que saber se adaptar as mudanças e escolher a melhor solução é mais importante que apenas seguir o plano.
+errada:Que a melhor forma de responder as mudanças é seguir o planejamento sem fazer alterações.
+errada: Que seguir o plano não tem nenhuma forma de valor para as ações.
+errada:Que adaptação as mudanças só devem acontecer se tiverem dentro do planejado.
+
+
+
+
+
+
+
+
