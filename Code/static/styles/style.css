@@ -386,7 +386,8 @@ input[type="radio"] {
     border-radius: 50%; /* Forma circular */
     background-color: #e8d2fa;
     border: 2px solid #e8d2fa; /*Borda do elemento*/
-  }
+}
+
   
   /* Estilizando a bolinha selecionada */
   input[type="radio"]:checked {
@@ -395,7 +396,7 @@ input[type="radio"] {
     transition: 0.3s ease-in-out /* Aumenta o tamanho da bolinha em 1.5 vezes */
   }
 
-#btn_exame {
+  #btn_exame {
     margin-left: 40%;
     width: 20%;
     padding-top: 2%;
@@ -404,4 +405,15 @@ input[type="radio"] {
     display: flex; /* Ativa o flexbox */
     justify-content: center; /* Alinha horizontalmente o conteúdo ao centro */
     align-items: center; /* Alinha verticalmente o conteúdo ao centro */
+    background-color: #d181f0 ;
+    border-color: #d181f0;
+    border-style: solid;
+    margin-bottom: 2%;
+}
+
+#txt_btn_exame{
+    margin-bottom: 6%;
+    font-size: 250%;
+
+
 }
