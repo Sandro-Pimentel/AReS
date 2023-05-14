@@ -14,6 +14,9 @@ Durante a Sprint, não devem ser feitas alterações que afetem a meta da Sprint
 
 
 SPRINT PLANNING MEETING 
+* Resumo sobre Sprints * 
+
+https://www.youtube.com/watch?v=4SCyriM7-_o 
 
 A Sprint Planning Meeting é um evento no Scrum que ocorre no início de cada Sprint, sendo uma reunião com toda o Time Scrum. Durante a reunião, o Product Owner apresenta o Product Backlog, o Development Team então decide quais itens serão trabalhados e cria um plano de Sprint com a definição da meta da e tarefas necessárias dessa Sprint, para facilitar esse planejamento essa reunião é dividida em duas partes que se resumem a duas perguntas: 
 
@@ -33,6 +36,9 @@ Toda essa reunião é importante para alinhar a equipe com os objetivos do proje
  
 
 DAILY SCRUM 
+* Daily Scrum * 
+
+https://www.youtube.com/watch?v=-YMkThxPdc4 
 
 O Daily Scrum é um evento diário que faz parte do processo Scrum. Durante a reunião, que dura no máximo 15 minutos, o Development Team se reúne para compartilhar o que realizou desde a última reunião, sempre respondendo às perguntas: 
 
@@ -48,6 +54,9 @@ O Daily Scrum é uma oportunidade para a equipe se comunicar de forma eficaz e c
 
 
 SPRINT REVIEW 
+* Sprint Review * 
+
+https://www.youtube.com/watch?v=3gwKkd7QyKs 
 
 A Sprint Review é uma reunião realizada no final de cada Sprint para que o Development Team apresente o trabalho realizado e o Product Owner forneça feedback, analisando o que funcionou ou não e os problemas enfrentados. O objetivo é garantir que o trabalho realizado esteja alinhado com as expectativas do cliente e do Product Owner e que o Product Backlog seja atualizado com base no feedback recebido. Neste evento, o Product Owner valida ou não a Sprint, de acordo com a meta que tenha sido acordada com o Time de Desenvolvimento.  
 
