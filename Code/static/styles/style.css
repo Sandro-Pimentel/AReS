@@ -417,3 +417,8 @@ input[type="radio"] {
 
 
 }
+
+td, th{
+border: 1px solid #c03ff3;
+text-align: center;
+}
