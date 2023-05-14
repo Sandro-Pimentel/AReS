@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block navbar %}
+{% block title %}
+<title>OPS!</title>
+{% endblock %}
+
+{% block navtitle %}
+<b class="title">Que pena!</b>
+{% endblock %}
+
+<div id="page-content">
+    <div class="banner">
+        <h1>Você acertou {% print(acertos) %} de 12 questões!</h1>
+    </div>
+    <div class="content">
+        &nbsp  &nbsp  &nbsp  &nbsp É uma pena que a sua pontução tenha sido menor que 10, lamentamos o ocorrrido e podemos oferecer novamente as aulas do nosso site, lendo com calma e tranquilidade pode-se ter uma melhor pontuação da próxima vez, ou se quiser repetir o exame novamente, clique no botão abaixo.
+    </div>
+    <form>
+        <button type="submit" id="btn_exame">Repetir o Exame</button>
+    </form>
+</div>
+
+{% endblock %}
