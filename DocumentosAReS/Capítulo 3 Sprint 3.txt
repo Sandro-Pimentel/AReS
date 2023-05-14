@@ -59,6 +59,10 @@ A Sprint Retrospective é a última reunião que ocorre após a Sprint Review, e
 
 RELEASE PLANNING MEETING 
 
+* Realese Planning * 
+
+https://www.youtube.com/watch?v=A--OZe1SCA8 
+
 Ao final de uma Sprint, o Development Team entrega um Incremento do produto, que é algo potencialmente entregável. Entretanto, apesar de poder entrar imediatamente em produção, existem situações em que isso é postergado para que seja feito somente na Release do produto. Um Release se trata de uma entrega do produto em desenvolvimento, sendo às vezes necessário por questões contratuais, eventos, roadmaps e necessidades de mercado. 
 
 Releases, como partes ou demonstrações de um produto, podem ser importantes para um rápido feedback, evitando com que seja desenvolvido elementos desnecessários no produto e rapidamente corrigido erros ou desapontamentos por parte do cliente. 
