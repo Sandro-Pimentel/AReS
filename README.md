@@ -7,9 +7,9 @@
 ---
 
 ## Objetivo do projeto
+ Este projeto é um projeto acadêmico, que tem como objetivo treinar soft skills e a aplicação dos processos da metodologia scrum.
 
-
-
+---
 
 ## 📌 Visão do produto
  O resultado final do produto que nós da equipe AReS temos em mente será, um site que irá ser capaz de lecionar e avaliar o aprendizado em relação à metodologia SCRUM. Para a realização desse objetivo usaremos sistemas de aprendizados dinâmicos, assim fazendo com que o usuário não fique apenas com os conceitos em sua mente, mas também que saiba exatamente em que maneiras ele poderá implementar essas ideias em âmbito profissional.
