@@ -36,10 +36,7 @@
     
 
 <div>
-    <img width="240" height="200" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/Sprint1.png">
-    <img width="240" height="200" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/Sprint2.png"><br>
-    <img width="240" height="200" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/Sprint3.png">
-    <img width="240" height="200" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/Sprint4.png">
+    <img width="" height="" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/ProdBacklog.png">
 </div>
 
 
