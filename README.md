@@ -74,7 +74,7 @@
 ![](https://github.com/Sandro-Pimentel/AReS/blob/main/Images/prototipo.gif)
 
 ## Sprint 2 - Site Navegável
-![](https://github.com/Sandro-Pimentel/AReS/blob/main/Images/prototipo_site.gif)
+![](https://github.com/Sandro-Pimentel/AReS/blob/main/Images/site_navegavel.gif)
 
 ## Sprint 3 - Conteúdo Adicional
 
