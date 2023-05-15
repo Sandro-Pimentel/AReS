@@ -1,0 +1,55 @@
+Perguntas Capitulo 3
+
+1)Um dos eventos do Scrum é a Sprint, uma das partes mais essenciais da metolodogia.Sabendo da importância da Sprint qual das opções tem a melhor definição.
+resposta: São ciclos de desenvolvimentos de incrementos potencialmente entregáveis do produto, dividos com uma duração fixa.
+errada: São periodos de reuniões e conversas sobre o que foi feito diariamente,dividos sem uma duração fixa.
+errada: São ciclos de estudos e aprendizados para obter conhecimentos sobre novas ferramentas,dividos com uma duração fixa.
+errada: São momentos onde o grupo se reune com o cliente para tomara decisões sobre o produto final,dividos sem uma duração fixa.
+
+2) A Sprint é container que possuem todos os outros eventos, um desses eventos é o Sprint Plannig Meeting,nesse evento o que os integrantes do Time Scrum fazem?
+Resposta: Se reunem para planejar o que será feito naquela Sprint.
+errada: Se reunem para debater sobre a produtividade dos membros.
+errada: Se reunem para comemorar a entrega da sprint anterior.
+errada: Se reunem para escolher o melhor integrante da sprint.
+
+3)A Sprint Planning Meeting é dividida em duas partes, cada uma com 
+duração fixa correspondente à metade da duração total. Cada parte 
+responde uma pergunta, a primeira é "O que será entregue no Incremento resultante nesta Sprint?" e qual a segunda pergunta a ser feita?
+resposta: Como faremos para entregar o Incremento nesta Sprint?
+errada: Até quando deve ser entregue O Incremento dessa Sprint?
+errada: Qual é o valor do Incremento desta Sprint?
+errada: Quem será o líder responsável pelo o Incremento?
+
+4) A Daily Scrum é uma inspeção que deve ser feito diariamente e possui muita importância para o andamento e produtividade do projeto.Sabendo da importância da Daily Scrum, escolha a alternativa que melhor responde à qual é o propósito desse evento?
+resposta:Tem o objetivo de cada membro fazer uma autoavaliação sobre o que foi feito e que será feito e se há impedimentos.
+errada: Tem o intuito de reunir o grupo para avaliar os integrantes que estão produzindo menos.
+errada: Tem o objetivo de unir o time para avaliar o membro mais produtivo e dar um feedback positivo para ele.
+errada: Tem o intuito de reunir o grupo para escolher os incrementos mais importantes que produto final precisa possuir.
+
+
+5)As Sprints possuem uma duração fixa que vai até um certo limite. Sabendo disso qual o tamanho máximo das Sprints?
+resposta:De até um mês.
+errada De até 15 dias.
+errada: De até uma semana.
+errada: De até 45 dias.
+
+6) Um dos artefatos do Scrum é o Product Backlog, algo que somete o Product Owner pode mexer.Escolha a alternativa que melhor define o que é um Product Backlog.
+resposta: Uma lista ordenada de itens por ordem de importância,além de ser uma lista adaptavel possuem itens funcionais e não funcionais.
+errada:Uma lista ordenada de itens por ordem de importância,além de ser uma lista com apenas as ferramentas a serem utilizadas.
+errada:Uma lista ordenada de itens por ordem de integrantes,além de ser uma lista adaptavel possuem itens funcionais e não funcionais.
+errada:Uma lista ordenada de itens por ordem de dificuldade,além de ser uma lista adaptavel possuem itens funcionais e não funcionais.
+
+7)Escolha uma das alternativas que não é um artefato do Srum.
+resposta: Product Master
+errada:Product Increment
+errada:Definition of Done
+errada:Burndown Charts
+
+8)O Burndown Chart é um dos artefatos do Scrum que ajuda o Development Team no autogerenciamento,mas ele só permite isso porque no Burndown Chart é feito?
+Resposta:A comparação entre o trabalho estimado e o realizado mostrado em gráfico e assim mostra a evolução diária.
+errada:A comparação entre o trabalho individual e o grupal mostrado em gráfico e assim mostra a evolução diária.
+errada: A comparação entre o trabalho estimado e o realizado mostrado em gráfico e assim mostra a evolução mensal.
+errada:A comparação entre o trabalho estimado e as metas do cliente mostrado em gráfico e assim mostra a evolução diária.
+
+
+ 
