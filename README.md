@@ -66,7 +66,7 @@
 + CSS 3 - Utilizado para a estilização do site.
 + JavaScript - Utilizado para a animação da barra de navegação do site.
 + Flask - Utilizado para a funcionamento do site na web e navegação entre as páginas.
-
++ Python - Utilizado para programar o exame e a navegação entre páginas.
 
 ##  Sprint 1 - Protótipo do Figma
 * [Protótipo](https://www.figma.com/proto/0AKYScVS37OimqYJeVhm12/Prot%C3%B3tipo(AReS)?node-id=112-4&scaling=min-zoom&page-id=3%3A5&starting-point-node-id=112%3A4)
