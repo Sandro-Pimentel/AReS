@@ -1,0 +1,69 @@
+Perguntas Capitulo 4
+
+1) A auto-organização é um fator que da aos times Scrum uma maior capacidade de resolver problemas e serem produtivos trazendo muita autonomia mas muita responsabilidade consequentemente.Porém para que isso aconteça é necessário que todos trabalhem em busca de uma ...?
+resposta: Meta Compartilhada.
+errada:Organização fixa.
+errada:Independência de comunicação.
+errada: Interação Social
+
+2)Qual das alternativas a seguir não é possivel ser utilizada a auto-organização:
+resposta:Na reunião do time com cliente.
+errada:Na definição dos itens que farão parte do Sprint Backlog.
+errada:Na atribuição de tarefas.
+errada:No Daily Scrum.
+
+3)Uma das etapas que é realizada no Scrum é a estimativa de esforço/tempo para realizar as tarefas, esta estimativa é feita com todo o grupo e nela é feita uma votação e todos entram em acordo.Para ser realizada essa estimativa tem uma forma que é a mais utilizada. Qual é a essa ferramenta?
+resposta:Planning Poker
+errada:Planning Power
+errada:Power Statics
+errada: Planning Mental
+
+4)Segundo	Peter	Pfeiffer	no	livro	Facilitação	de	Projetos,	“um facilitador	é um catalisador para as diversas idéias que se	apresentam	em um grupo”. Ter um integrante facilitador no grupo impulsiona e o potencializa as outras pessoas dos grupos com suas atitudes.Sabendo disso escolha a alternativa que não corresponde com uma atitude de um facilitador.
+resposta:Evitar que o grupo tome decisões erradas,assumindo o geranciamento.
+errada:Otimizar processos de aprendizagem.
+errada: Evitar que um grupo seja dominado por um indivíduo que se impõe.
+errada:Motivar as pessoas mais tímidas e proporcionar uma participação 
+mais ativa.
+
+5)Apesar de não ser oficialmente uma cerimônia Scrum, a Reunião de Visão 
+do produto permite ao Product Owner expôr ao Development Team e ao 
+Scrum Master a visão do produto que norteará o projeto. Nesta reunião, o 
+Product Owner pode coletar sugestões e idéias para compor o Product 
+Backlog. Qual importância dessa reunião?
+resposta: É importante para que todos dentro do Time Scrum saibam o 
+direcionamento do projeto. 
+errada:É importante para que todos dentro do Time Scrum saibam o 
+quanto vão ganhar com o  projeto.
+errada: É importante para que todos dentro do Time Scrum saibam o prazo de entrega do projeto. 
+errada: É importante para que todos dentro do Time Scrum saibam as ferramentas obrigatorias a serem usadas. 
+
+6)Uma das melhores formas de se estimar o esforço é utilizando o 
+Planning Poker. Isso porque ele combina a opinião de experts, analogia e 
+desagregação em uma abordagem divertida na estimação de itens ou User 
+Stories e elimina a influência que um membro do Development Team
+possa exercer sobre outros.Sabendo disso qual a escala mais utilizada na estimativa utilizando-se Planning Poker?
+resposta:Sequência de Fibonacci
+errada:Progressão Aritmética
+errada:Numeração Binária
+errada:Numeração Decimal
+
+7)Ao descrever os itens de negócios para o Product Backlog, o Product 
+Owner pode optar por diversos formatos, tais como requisitos, Use Cases, 
+features (FDD), User Stories, entre outros, sendo este último um dos mais 
+utilizados. Isso porque um User Story descreve uma funcionalidade que 
+tenha valor ao cliente, mas em termos de negócios – e não de uma forma 
+técnica. Assim, um User Story é composta de três aspectos, qual desses não é um dos aspectos?
+resposta:Conversas sobre a atribuição de tarefas para os integrantes.
+errada:Uma descrição escrita da história como um lembrete
+errada:Conversas sobre a história que servem para detalha-la
+errada:Testes que conduzem e documentam aspectos importantes da 
+história e que podem determinar quando ela está completa
+
+8)Como normalmente User Stories são escritos em cartões de notas, 
+convencionou-se a utilização dos 3Cs para User Stories, quais são esses 3 C´s ?
+resposta: Cartão,Conversação e Confirmação.
+errada:Cartão,Compensação e Certificação.
+errada:Catálogo,Conversação e Confirmação.
+errada:Compreensão,Conversação e Confirmação.
+
+
