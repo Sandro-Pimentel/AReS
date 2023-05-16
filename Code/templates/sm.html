@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title> Scrum Master </title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 2 - Scrum Master</b>
+{% endblock %}
+<body>
+    <!-- side bar \/ -->
+    
+
+    <style>
+        #popup.open{
+    display: flex;
+    }
+
+    #popup{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    z-index: 1; 
+    }
+    </style>
+    <div id="popup">
+        <div class="popupContent">
+           <img src="../static/imagens/team.png" alt="">
+        </div>
+    </div>
+
+    <div id="sidebar">
+        <h2>barra lateral</h2>
+        <ul>
+            <a href="#"><li>Capítulo 1 - Definições</li></a><br>
+            <a href="#"><li>Capítulo 2 - Responsabilidades e papéis</li></a><br>
+            <a href="#"><li>Capítulo 3 - Artefatos do Scrum</li></a><br>
+            <a href="#"><li>Capítulo 4 - Eventos do Scrum</li></a><br>
+        </ul>
+    </div>
+
+    <div id="page-content">
+            <div class="links">
+                <a href="#PO">Product Owner</a>
+                <a href="#SM">Scrum Master</a>
+                <a href="#DT">Development Team</a>
+            </div>
+        <div class="banner">
+            <h1>SCRUM MASTER</h1>
+        </div>
+
+        <div class="content">
+            <div>
+                <img src="../static/imagens/scrum_master.png">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <a id="popupBtn" href="#"  class="btn_cont_a"> Vídeo Scrum Master</a>
+            </div>
+            <div id="SM">
+                <h1 class="content h1">Scrum Master</h1>
+                <h3 class="content h3">"A direção em busca da Produtividade."</h3>
+                &nbsp  &nbsp  &nbsp  &nbsp O Scrum Master vai ser o membro do time que mais conhece os processos da métodologia Scrum. E pode ser difícil seguir como um Scrum Master, pois sendo ele o membro que mais conhece o Scrum, seu trabalho é de orientar o P.O. na criação e ordenação do Backlog do Produto, garantir que a equipe está seguindo as regras e Valores do Scrum, facilitar os Eventos do Scrum e até ajudar a remover impedimentos, mas sem imposição de autoridade. <br> <br>
+                &nbsp  &nbsp  &nbsp  &nbsp Em questão de processos, o Scrum Master é um líder, e mesmo sendo um membro fundamental do Time de Desenvolvimento, ele não tem um papel ativo no desenvolvimento do processo de engenharia do time. O Scrum Master é um facilitador, então ao invés de participar de forma ativa no desenvolvimento, ele vai usar técnicas de facilitação e coaching para ajudar os membros do DevTeam a visualizar os problemas e encontrarem boas soluções. Esse papel do Scrum Master faz com que constantemente o time esteja se desafiando. Além de trabalhar para que os membros do time sejam cada vez mais eficientes e sempre de acordo com os 12 Princípios do método Ágil. <br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp Durante os Eventos do Scrum  é o responsável por fazer a reunião fluir adequadamente, usando técnicas de facilitação, embora não seja ele o responsável por conduzir as reuniões. Como os Eventos do Scrum tem uma duração fixa é muito importante que os problemas que aconteçam durante eles sejam resolvidos rapidamente.<br><br>
+           
+                <h1 id="PO" class="content h1">Exemplo Prático</h1>
+
+                &nbsp  &nbsp  &nbsp  &nbsp O Scrum Master da equipe de desenvolvimento do aplicativo de delivery de comida observa que o time está com dificuldades para entregar as funcionalidades dentro do prazo. Ele conversa com o PO e juntos eles decidem priorizar a funcionalidade de rastreamento de entregas em tempo real, com o objetivo de melhorar a avaliação do aplicativo nas lojas. <br>
+
+                &nbsp  &nbsp  &nbsp  &nbsp O Scrum Master trabalha com o time de desenvolvimento para garantir que os impedimentos sejam resolvidos e a equipe tenha o suporte necessário para trabalhar na funcionalidade. Ele facilita as reuniões diárias e ajuda o time a manter o foco nas tarefas prioritárias. <br>
+
+                &nbsp  &nbsp  &nbsp  &nbsp Ele também ajuda o PO a garantir que a funcionalidade de rastreamento de entregas em tempo real atenda aos critérios de aceitação definidos e que as expectativas dos usuários sejam atendidas. O Scrum Master trabalha para garantir que o time de desenvolvimento tenha um ambiente de trabalho saudável e produtivo, o que ajuda a manter o nível de motivação e engajamento.O Scrum Master da equipe de desenvolvimento do aplicativo de delivery de comida observa que o time está com dificuldades para entregar as funcionalidades dentro do prazo. Ele conversa com o PO e juntos eles decidem priorizar a funcionalidade de rastreamento de entregas em tempo real, com o objetivo de melhorar a avaliação do aplicativo nas lojas. <br>
+
+                &nbsp  &nbsp  &nbsp  &nbsp O Scrum Master trabalha com o time de desenvolvimento para garantir que os impedimentos sejam resolvidos e a equipe tenha o suporte necessário para trabalhar na funcionalidade. Ele facilita as reuniões diárias e ajuda o time a manter o foco nas tarefas prioritárias. <br>
+
+                &nbsp  &nbsp  &nbsp  &nbsp Ele também ajuda o PO a garantir que a funcionalidade de rastreamento de entregas em tempo real atenda aos critérios de aceitação definidos e que as expectativas dos usuários sejam atendidas. O Scrum Master trabalha para garantir que o time de desenvolvimento tenha um ambiente de trabalho saudável e produtivo, o que ajuda a manter o nível de motivação e engajamento. <br>
+            </div>
+        </div>
+
+        <div class="content">
+            <div>
+                <a href="/po" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>            
+            </div>
+            <div>
+                <a href="/dt"><img class="seta" src="static/imagens/seta_dir.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        const openPopup = document.getElementById('popupBtn');
+        const popup = document.getElementById('popup');
+    
+        openPopup.addEventListener('click', ()=>{popup.classList.toggle('open')});
+    
+    </script>
+{% endblock %}

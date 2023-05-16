@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title> Development Team </title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 2 - Dev Team</b>
+{% endblock %}
+<body>
+    <!-- side bar \/ -->
+    
+
+    <style>
+        #popup.open{
+    display: flex;
+    }
+
+    #popup{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    z-index: 1; 
+    }
+    </style>
+    <div id="popup">
+        <div class="popupContent">
+           <img src="../static/imagens/team.png" alt="">
+        </div>
+    </div>
+
+    <div id="sidebar">
+        <h2>barra lateral</h2>
+        <ul>
+            <a href="#"><li>Capítulo 1 - Definições</li></a><br>
+            <a href="#"><li>Capítulo 2 - Responsabilidades e papéis</li></a><br>
+            <a href="#"><li>Capítulo 3 - Artefatos do Scrum</li></a><br>
+            <a href="#"><li>Capítulo 4 - Eventos do Scrum</li></a><br>
+        </ul>
+    </div>
+
+    <div id="page-content">
+            <div class="links">
+                <a href="#PO">Product Owner</a>
+                <a href="#SM">Scrum Master</a>
+                <a href="#DT">Development Team</a>
+            </div>
+        <div class="banner">
+            <h1>DEVELOPMENT TEAM</h1>
+        </div>
+
+        <div class="content">
+            <div id="Scrum">
+                <h1 id="DT" class="content h1">Dev Team</h1>
+                <h3 class="content h3">"Os Criadores de valor em ação."</h3>
+                &nbsp  &nbsp  &nbsp  &nbsp O Time de Desenvolvimento é o conjunto de todos os membros responsáveis pelo desenvolvimento do projeto do Scrum, sendo composto por diversos perfis profissionais que vão compor a equipe como analistas, designers, desenvolvedores, arquitetos, testadores, etc. Com isso, o time deve ser autossuficiente para conseguir alcançar todas as metas das Sprints<br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp O Dev Team é responsável por desenvolver os incrementos apresentáveis do produto e decidir o tamanho de cada item do Product Backlog. Também é essencial que o time seja auto-gerenciado e auto-organizado, isso significa que nem o Scrum Master tem que definir como a equipe deve desenvolver os itens do Backlog para torná-los algo entregável, assim, para que tudo ocorra bem, os membros da equipe têm que ter uma boa relação entre si e uma clara comunicação. Nenhum membro pode ocultar ou mentir o que esá sendo feito para não atrapalhar o projeto como um todo.<br><br>
+                &nbsp  &nbsp  &nbsp  &nbsp O auto-gerenciamento do time vem da capacidade de gernciarem as tarefas e o tempo de cada um da equipe, assim como assegurar a qualidade do trabalho entregue. Para que o gerenciamento seja mais fácil, é recomendável que um Time de Desenvolvimento não contenha menos de três pessoas ou mais que nove, caso contrário, a distribuição de tarefas será bem mais difícil.<br><br>
+                
+                <h3>Um time sempre passa por <b>4 estágios:</b> </h3>
+                <ul>
+                    <li><b>Forming:</b> Momento de formação da equipe, onde os membro ainda não se conhecem.</li>
+                    <li><b>Storming:</b> Nessa fase os membros se conhecem melhor, descobrindo seus hábitos e comportamento.</li>
+                    <li><b>Norming:</b> É onde a equipe começa o auto-gerenciamento, definindo regras e normas entre eles.</li>
+                    <li><b>Performing: </b> É o momento onde o time começa a atuar em conjunto, tendo uma melhor performance em seu desenvolvimento.</li>
+                </ul>
+            
+            </div>
+            <div>
+                <img id="img" src="../static/imagens/dev.png">  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <a id="popupBtn" href="#"  class="btn_cont_a"> Vídeo Dev Team</a>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <a href="/sm" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>            
+            </div>
+            <div>
+                <a href="/eventos"><img class="seta" src="static/imagens/seta_dir.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        const openPopup = document.getElementById('popupBtn');
+        const popup = document.getElementById('popup');
+    
+        openPopup.addEventListener('click', ()=>{popup.classList.toggle('open')});
+    
+    </script>
+{% endblock %}

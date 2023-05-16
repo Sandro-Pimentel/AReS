@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title> Papéis do Scrum </title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 2 - Papéis do Scrum</b>
+{% endblock %}
+    <title>Capítulo 2 - Responsabilidades e papéis</title>
+<body>
+    <!-- side bar \/ -->
+    
+
+    <style>
+        #popup.open{
+    display: flex;
+    }
+
+    #popup{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    z-index: 1; 
+    }
+    </style>
+    <div id="popup">
+        <div class="popupContent">
+           <img src="../static/imagens/team.png" alt="">
+        </div>
+    </div>
+
+    <div id="sidebar">
+        <h2>barra lateral</h2>
+        <ul>
+            <a href="#"><li>Capítulo 1 - Definições</li></a><br>
+            <a href="#"><li>Capítulo 2 - Responsabilidades e papéis</li></a><br>
+            <a href="#"><li>Capítulo 3 - Artefatos do Scrum</li></a><br>
+            <a href="#"><li>Capítulo 4 - Eventos do Scrum</li></a><br>
+        </ul>
+    </div>
+
+    <div id="page-content">
+            <div class="links">
+                <a href="#PO">Product Owner</a>
+                <a href="#SM">Scrum Master</a>
+                <a href="#DT">Development Team</a>
+            </div>
+        <div class="banner">
+            <h1>RESPONSABILIDADE E PAPÉIS</h1>
+        </div>
+
+        <div class="content">
+            <div id="Agilidade">
+                <h1 class="content h1">Introdução</h1>
+                <h3 class="content h3">O Sucesso de um time Scrum é ter poucos papéis mas bem definidos.</h3>
+                &nbsp  &nbsp  &nbsp  &nbsp Em um <b>time ágil</b>, existem 3 funções a serem definidas: <b>Product Owner</b>, <b>Scrum Master</b> e o <b>Scrum Team (ou Dev Team)</b>.<br><br>
+
+                &nbsp  &nbsp  &nbsp  &nbsp Nesse capítulo serão especificados os deveres que cada uma dessas funções terá no time para o sucesso do projeto.É importante que todos tenham em mente que não há cargos e que todas tenham a mentalidade que precisam ser um para vencerem.
+                <h3 class="content h3">Se um Vence, Todos Vencem.</h3>
+                <ul>
+                    <li><b>Autossuficiente:</b>As pessoas precisam  ser independentes na resolução de problemas.</li>
+                    <li><b>Auto-organizado:</b>Os integrantes do grupo precisam estar atentos e sempre se adaptarem as mudanças e manter a organização, ordem e sucesso são a base pro sucesso.</li>
+                    <li><b>Multifuncional</b>Com cada membro sabendo variás funções aumenta a capacidade do grupo de resolver problemas diversos em meio a imprevistos e mudanças repentinas. </li>
+
+                </ul>
+            <h1 id="PO" class="content h1">Exemplo Prático</h1>
+
+                &nbsp  &nbsp  &nbsp  &nbsp O time de desenvolvimento de um aplicativo de delivery de comida recebe a tarefa de implementar uma nova funcionalidade para melhorar a avaliação do aplicativo nas lojas. <br>
+                &nbsp  &nbsp  &nbsp  &nbsp Eles percebem que estão com dificuldades para entregar as funcionalidades dentro do prazo e conversam com o Scrum Master sobre as dificuldades. <br><br>
+
+                &nbsp  &nbsp  &nbsp  &nbsp O Scrum Master trabalha em conjunto com o PO para priorizar a funcionalidade de rastreamento de entregas em tempo real, que deve melhorar a avaliação do aplicativo.  <br>
+                &nbsp  &nbsp  &nbsp  &nbsp O time de desenvolvimento trabalha em estreita colaboração com o PO e recebe feedbacks frequentes sobre a funcionalidade, que é testada e refinada ao longo do tempo. <br><br>
+
+                &nbsp  &nbsp  &nbsp  &nbsp O time de desenvolvimento enfrenta alguns desafios técnicos durante o processo, mas trabalha em conjunto para superá-los e concluir a funcionalidade com sucesso. <br>
+                &nbsp  &nbsp  &nbsp  &nbsp Após algumas iterações, a funcionalidade de rastreamento de entregas em tempo real é implementada no aplicativo e os usuários adoram.
+            
+            </div>
+
+                <div>
+                    <img id="img" src="../static/imagens/team.png">
+                    
+                </div>
+        </div>
+
+        <div class="content">
+            <div>
+                <a href="/pilares" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>            
+            </div>
+            <div>
+                <a href="/po"><img class="seta" src="static/imagens/seta_dir.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        const openPopup = document.getElementById('popupBtn');
+        const popup = document.getElementById('popup');
+    
+        openPopup.addEventListener('click', ()=>{popup.classList.toggle('open')});
+    
+    </script>
+{% endblock %}

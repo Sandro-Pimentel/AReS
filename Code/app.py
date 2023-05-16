@@ -7,13 +7,41 @@ app = Flask('__name__')
 def index():
     return render_template("index.html")
 
-@app.route("/conteudo1")
-def conteudo1():
-    return render_template("conteudo1.html")
+@app.route("/definicoes")
+def definicoes():
+    return render_template("definicoes.html")
 
-@app.route("/conteudo2")
-def conteudo2():
-    return render_template("conteudo2.html")
+@app.route("/pilares")
+def pilares():
+    return render_template("pilares.html")
+
+@app.route("/papeis")
+def papeis():
+    return render_template("papeis.html")
+
+@app.route("/po")
+def po():
+    return render_template("po.html")
+
+@app.route("/sm")
+def sm():
+    return render_template("sm.html")
+
+@app.route("/dt")
+def dt():
+    return render_template("dt.html")
+
+@app.route("/eventos")
+def eventos():
+    return render_template("eventos.html")
+
+@app.route("/sprintplan")
+def sprintplan():
+    return render_template("sprintplan.html")
+
+@app.route("/daily")
+def daily():
+    return render_template("daily.html")
 
 @app.route("/conteudo3")
 def conteudo3():

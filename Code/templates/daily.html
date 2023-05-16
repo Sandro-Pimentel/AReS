@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title> Daily Scrum </title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 3 - Daily Scrum</b>
+{% endblock %}
+<div id="page-content">
+        <div class="links">
+            <a href="#SP">Sprints</a>
+            <a href="#DS">Daily Scrum</a>
+            <a href="#SR">Sprint Review</a>
+        </div>
+    <div class="banner">
+        <h1>DAILY SCRUM</h1>
+    </div>
+    
+    <div class="content">
+        <div id="DS">
+            <h1 class="content h1">Daily Scrum</h1>
+            &nbsp  &nbsp  &nbsp  &nbspO Daily Scrum é um evento <b>diário</b> que faz parte do processo Scrum. Durante a reunião, que dura <b>no
+            máximo 15 minutos</b>, o Development Team se reúne para compartilhar o que <b>realizou desde a última
+            reunião</b>, sempre respondendo às perguntas:
+            
+            <ul>
+                <li>O que fiz desde a última Daily Scrum? </li>
+                <li>O que pretendo fazer até a próxima Daily Scrum?</li>
+                <li>Existe algo me impedindo de concluir alguma tarefa? </li>
+            </ul>
+            &nbsp  &nbsp  &nbsp  &nbsp Cada membro da equipe tem a oportunidade de falar e todos devem se <b>concentrar em manter a
+            reunião breve e objetiva</b>.
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp O objetivo é manter a equipe <b>informada e alinhada</b>, identificar problemas o
+            mais cedo possível e garantir que todos estejam <b>trabalhando em direção à Meta da Sprint</b>.
+            <br><br>
+            &nbsp  &nbsp  &nbsp  &nbsp Daily Scrum é uma oportunidade para a equipe se comunicar de forma<b> eficaz e colaborar para atingir
+            os objetivos do projeto</b>. 
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp É importante que todos os membros <b>participem</b> da reunião e compartilhem
+            suas <b>atualizações</b> para garantir que todos estejam cientes do progresso da equipe e dos <b>próximos
+            passos a serem tomados</b>.
+
+        </div>
+        <div>
+            <img class="img_rig" src="../static/imagens/dev.png">
+        </div>
+    </div>
+
+    </div>
+    <div class="content">
+        <div>
+            <a href="/sprintplan" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>            
+        </div>
+        <div>
+            <a href="/conteudo4"><img class="seta" src="static/imagens/seta_dir.png" alt=""></a>
+        </div>
+    </div>
+</div>
+{% endblock %}

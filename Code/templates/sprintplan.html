@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title> Sprint Planning Meeting </title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 3 - Sprint Planning Meeting</b>
+{% endblock %}
+<div id="page-content">
+        <div class="links">
+            <a href="#SP">Sprints</a>
+            <a href="#DS">Daily Scrum</a>
+            <a href="#SR">Sprint Review</a>
+        </div>
+    <div class="banner">
+        <h1>SPRINT PLANNING MEETING</h1>
+    </div>
+
+    <div class="content">
+        <div>
+            <img src="../static/imagens/team.png">
+        </div>
+        <div id="SP">
+            <h1 class="content h1">Sprint Planning Meeting</h1>
+            &nbsp  &nbsp  &nbsp  &nbsp A Sprint Planning Meeting é um evento no Scrum que ocorre no <b>início</b> de cada Sprint, sendo uma
+            reunião com toda o <b>Time Scrum</b>. Durante a reunião, o Product Owner apresenta o <b>Product Backlog</b>, o
+            Development Team então decide quais <b>itens serão trabalhados</b> e cria um plano de Sprint com a
+            <b>definição da meta da e tarefas</b> necessárias dessa Sprint, para facilitar esse planejamento essa reunião
+            é dividida em duas partes que se resumem a <b>duas perguntas</b>:
+            <br>
+            <ul>
+                <li>O que será entregue no Incremento resultante nesta Sprint?
+                </li>
+                <li>Como faremos para entregar o Incremento nesta Sprint?</li>
+
+            </ul>
+            
+            <br><br>
+            <h1 class="content h1">1º Pergunta</h1>
+            &nbsp  &nbsp  &nbsp  &nbsp Então, para responder a primeira pergunta, o Time de Desenvolvimento prevê as <b>funcionalidades</b> que
+            serão desenvolvidas nessa Sprint enquanto o Produtct Owner pontua quais são os itens do <b>topo</b> do
+            <b>Product Backlog</b> ao Time Scrum, que colabora na seleção dos itens dessa Sprint. 
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp É importante ressaltar
+            que <b>apenas</b> o Development Team é capaz de definir o que é capaz de <b>realizar</b> nessa Sprint. Assim
+            definindo a meta da Sprint.
+
+            <h1 class="content h1">2º Pergunta</h1>
+            &nbsp  &nbsp  &nbsp  &nbsp  Na segunda parte da reunião é discutido as <b>formas nas quais o Time de Desenvolvimento transformará
+            os itens selecionados em Incremento</b>. 
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp O Development Team, sendo <b>autogerenciado</b>, se coordena para
+            decompor os itens em unidades de um dia ou menos, o suficiente para os <b>primeiros dias da Sprint</b>.
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp  Os itens selecionados mais o plano para o desenvolvimento do Incremento dá origem ao Sprint Backlog.
+            <br><br>
+            &nbsp  &nbsp  &nbsp  &nbsp Toda essa reunião é importante para <b>alinhar a equipe com os objetivos do projeto</b> e definir um plano
+            <b>claro</b> para atingir as metas, levando em consideração as <b>prioridades definidas</b> pelo Product Owner e
+            as capacidades da equipe.
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp O plano de Sprint é um <b>guia</b> importante para a equipe durante a Sprint,
+            permitindo que eles se <b>concentrem</b> nas tarefas mais <b>importantes</b> e trabalhem de forma <b>eficiente</b>.
+            
+        </div>
+
+    </div>
+    <div class="content">
+        <div>
+            <a href="/eventos" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>            
+        </div>
+        <div>
+            <a href="/daily"><img class="seta" src="static/imagens/seta_dir.png" alt=""></a>
+        </div>
+    </div>
+</div>
+{% endblock %}

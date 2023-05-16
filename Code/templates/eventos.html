@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title> Eventos do Scrum </title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 3 - Eventos</b>
+{% endblock %}
+<div id="page-content">
+        <div class="links">
+            <a href="#SP">Sprints</a>
+            <a href="#DS">Daily Scrum</a>
+            <a href="#SR">Sprint Review</a>
+        </div>
+    <div class="banner">
+        <h1>EVENTOS DO SCRUM</h1>
+    </div>
+    <div class="content">
+
+        <div id="Scrum">
+            <h1 class="content h1">Introdução</h1>
+            &nbsp  &nbsp  &nbsp  &nbsp <b>Scrum</b> possui alguns eventos de <b>duração fixa</b> realizados em intervalos que ocorrem regularmente.
+            Cada um destes eventos são oportunidades para <b>inspeção e adaptação</b> do projeto como um todo,
+            sendo importante para sua consistência e qualidade.
+            <br><br>
+            &nbsp  &nbsp  &nbsp  &nbsp Esses eventos são:
+            <ul>
+                <li>Sprint</li>
+                <li>Sprint Planning Meeting</li>
+                <li>Daily Scrum</li>
+                <li>Sprint Retrospective</li>
+                <li>Release Planning Meeting</li>
+            </ul> 
+            <br><br>
+            
+        </div>
+
+        <div></div>
+    </div>
+
+    <hr>    
+    <div class="content">
+        <div id="SP">
+            <h1 class="content h1">Sprints</h1>
+            &nbsp  &nbsp  &nbsp  &nbsp <b>Scrum</b> é um processo iterativo e incremental para desenvolvimento de produtos, que se baseia em
+            ciclos chamados de <b>Sprints</b>. Cada Sprint tem duração de até um mês e produz um <b>incremento
+            potencialmente entregável do produto</b>. Durante a Sprint, são realizados eventos como a <b>Sprint
+            Planning Meeting</b>, <b>Daily Scrum</b>, trabalho de desenvolvimento, <b>Sprint Review</b> e <b>Sprint Retrospective</b>.
+            
+            <br><br>
+
+            &nbsp  &nbsp  &nbsp  &nbsp Durante a Sprint, não devem ser feitas alterações que afetem a <b>meta</b> da Sprint. No entanto, o escopo
+            pode ser renegociado entre o <b>Development Team</b> e o <b>Product Owner</b> conforme o conhecimento
+            evolua durante o desenvolvimento. Isso permite feedbacks constantes do Product Owner quanto ao
+            produto sendo desenvolvido e a possibilidade de reorganizar o <b>Product Backlog</b> caso seja necessário.
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp Em resumo, as Sprints são a base do processo Scrum, permitindo o    desenvolvimento ágil e iterativo
+            do produto de forma eficiente e com feedback constante.
+            
+        </div>
+        <div>
+            <img src="../static/imagens/scrum.png">
+        </div>
+    </div>
+
+    </div>
+    <div class="content">
+        <div>
+            <a href="/dt" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>            
+        </div>
+        <div>
+            <a href="/sprintplan"><img class="seta" src="static/imagens/seta_dir.png" alt=""></a>
+        </div>
+    </div>
+</div>
+{% endblock %}
