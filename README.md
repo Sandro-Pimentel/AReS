@@ -74,7 +74,7 @@
 ![](https://github.com/Sandro-Pimentel/AReS/blob/main/Images/prototipo_site.gif)
 
 ## Sprint 3 - Conteúdo Adicional
-![](https://github.com/Sandro-Pimentel/AReS/blob/main/Images/site_navegavel.gif)
+![](https://github.com/Sandro-Pimentel/AReS/blob/main/Images/sprint%203%20gif.gif)
 ---
 
 ## 👨‍💻 Dev Team
