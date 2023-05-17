@@ -77,9 +77,9 @@ def burndown():
 def probacklog():
     return render_template("probacklog.html")
 
-# @app.route("/examefinal")
-# def examefinal():
-#    return render_template("examefinal.html")
+@app.route("/avaliacao")
+def avaliacao():
+    return render_template("avaliacao.html")
 
 @app.route("/fracasso")
 def fracasso():
