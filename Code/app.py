@@ -84,3 +84,6 @@ def teste():
             return render_template("fracasso.html", acertos=acertos)
     return render_template("examefinal.html")
 
+@app.route("/mvp")
+def mvp():
+    return render_template("mvp.html")
