@@ -106,4 +106,4 @@ def teste():
             return render_template("sucesso.html", acertos=acertos)
         else:
             return render_template("fracasso.html", acertos=acertos)
-    return render_template("examefinal.html")
+    return render_template("examefinal.html")  
