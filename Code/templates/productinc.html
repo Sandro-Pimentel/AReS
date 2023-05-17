@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title> Product Increment </title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 4 - Product Increment</b>
+{% endblock %}
+<div id="page-content">
+        <div class="links">
+            <a href="#PB">Product Backlog</a>
+            <a href="#SB">Sprint Backlog</a>
+            <a href="#BC">Burndown Chart</a>
+        </div>
+    <div class="banner">
+        <h1>PRODUCT INCREMENT</h1>
+    </div>
+
+    <div class="content">
+        <div>
+        </div>
+        <div id="Scrum">
+            <h1 id="SB" class="content h1">Product Increment</h1>
+            <h3 class="content h3">"A retrospectiva de seu progresso."</h3>
+            &nbsp  &nbsp  &nbsp  &nbsp Ao final de cada Sprint, o <b>Time de Desenvolvimento</b> entrega um <b>Incremento do produto</b>
+            desenvolvido, essa entrega é importante pois permite o <b>Product Owner</b> ver o trabalho realizado e
+            também já pense em <b>outras possibilidades</b> até da <b>próxima Sprint</b>.
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbspVale lembrar que o Incremento é
+            algo <b>potencialmente entregável</b>, que pode chamar a <b>atenção do cliente</b>, por isso é importante um
+            bom trabalho do Time de Desenvolvimento para que o Incremento contenha o <b>menor número de
+            erros possível.</b>
+        </div>
+   </div>
+
+    <div class="content">
+        <div>
+            <a href="/sprintback" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>            
+        </div>
+        <div>
+            <a href="/burndown" ><img class="seta" src="static/imagens/seta_dir.png" alt=""></a>
+        </div>
+    </div>
+</div>
+{% endblock %}

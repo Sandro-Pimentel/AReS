@@ -43,13 +43,35 @@ def sprintplan():
 def daily():
     return render_template("daily.html")
 
-@app.route("/conteudo3")
-def conteudo3():
-    return render_template("conteudo3.html")
+@app.route("/sprev")
+def sprev():
+    return render_template("sprintrev.html")
 
-@app.route("/conteudo4")
-def conteudo4():
-    return render_template("conteudo4.html")
+
+@app.route("/spret")
+def spret():
+    return render_template("sprintret.html")
+
+
+@app.route("/replame")
+def replame():
+    return render_template("relplamee.html")
+
+@app.route("/dorxdod")
+def dorxdod():
+    return render_template("dorxdod.html")
+
+@app.route("/sprintback")
+def sprintback():
+    return render_template("sprintback.html")
+
+@app.route("/productinc")
+def productinc():
+    return render_template("productinc.html")
+    
+@app.route("/burndown")
+def burndown():
+    return render_template("burndown.html")
 
 @app.route("/productbacklog")
 def probacklog():
@@ -85,19 +107,3 @@ def teste():
         else:
             return render_template("fracasso.html", acertos=acertos)
     return render_template("examefinal.html")
-
-
-
-@app.route("/sprev")
-def sprev():
-    return render_template("sprintrev.html")
-
-
-@app.route("/spret")
-def spret():
-    return render_template("sprintret.html")
-
-
-@app.route("/replame")
-def replame():
-    return render_template("relplamee.html")    

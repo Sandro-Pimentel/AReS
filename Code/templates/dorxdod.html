@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title> DoR x DoD </title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 4 - DoR x DoD</b>
+{% endblock %}
+<div id="page-content">
+        <div class="links">
+            <a href="#PB">Product Backlog</a>
+            <a href="#SB">Sprint Backlog</a>
+            <a href="#BC">Burndown Chart</a>
+        </div>
+    <div class="banner">
+        <h1>DoR x DoD</h1>
+    </div>
+
+    <div class="content">
+        <div>
+            <br><br><br><br><br>
+            <img id="img" src="../static/imagens/productbacklog.png">
+        </div>
+        
+        <div id="Scrum">
+            <h1 id="PB" class="content h1">Definition of Done</h1>
+            <h3 class="content h3">"Trazendo consistência &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp e metas."</h3>
+            &nbsp  &nbsp  &nbsp  &nbsp O Scrum não define quaisquer práticas de engenharia de software para o Development Team, mas
+            recomenda sempre o uso de práticas ágeis <b>que garantam a qualidade do produto desenvolvido.</b>
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp Assim,
+            mediante as práticas adotadas pelo Time, tem-se a definição do que é uma <b>funcionalidade “pronta”</b>,
+            código testado unitariamente, código testado mediante teste de aceitação, código revisto e assim por
+            diante.
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp No mínimo, o Definition of Done deve conter o <b>“potencialmente entregável”.</b>
+
+            <br><br>
+
+            &nbsp  &nbsp  &nbsp  &nbsp  Uma funcionalidade só é considerada pronta se tiver passada por todas as <b>etapas definidas</b> pelo Time
+            de Desenvolvimento, assim também sendo necessária a clara noção de todo o Time Scrum do que é
+            considerado pronto. Uma funcionalidade inacabada volta ao <b>Product Backlog</b> para ser continuada na
+            próxima Sprint.
+        </div>
+    </div>
+
+    </div>
+    <div class="content">
+        <div>
+            <a href="/replame" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>
+        </div>
+        <div>
+            <a href="/sprintback" ><img class="seta" src="static/imagens/seta_dir.png" alt=""></a>
+        </div>
+    </div>
+</div>
+{% endblock %}
