@@ -67,6 +67,8 @@ def fracasso():
 def sucesso():
     return render_template("sucesso.html")
 
+
+
 @app.route("/examefinal", methods=['GET','POST'])
 def teste():
     if request.method == 'POST':
@@ -84,3 +86,18 @@ def teste():
             return render_template("fracasso.html", acertos=acertos)
     return render_template("examefinal.html")
 
+
+
+@app.route("/sprev")
+def sprev():
+    return render_template("sprintrev.html")
+
+
+@app.route("/spret")
+def spret():
+    return render_template("sprintret.html")
+
+
+@app.route("/replame")
+def replame():
+    return render_template("relplamee.html")    
