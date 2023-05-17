@@ -101,3 +101,7 @@ def spret():
 @app.route("/replame")
 def replame():
     return render_template("relplamee.html")    
+
+@app.route("/footer")
+def footer():
+    return render_template("footer.html")    
