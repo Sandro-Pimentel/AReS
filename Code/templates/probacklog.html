@@ -6,8 +6,11 @@
 {% block navtitle %}
     <b class="title">Capítulo 4 - Product Backlog</b>
 {% endblock %}
+<div id="page-content">
+    <div class="banner">
+        <h1>Product Backlog</h1>
+    </div>
     <title>Product Backlog</title>
-<body>
     <div id="Scrum">
         <h1 id="PB" class="content h1">Product Backlog</h1>
         <h3 class="content h3">"Agregando mais valor ao produto."</h3>
@@ -47,26 +50,26 @@
 
         <br><br><br>
 
-    <table>
-<tr>
-<th><b>User Story</b></th>
-<th><b>Prioridade</b></th>
-<th><b>Sprint</b></th>
-<th><b>Esforço Estimado</b></th>
-</tr>
-<tr>
-<td>Eu, enquanto cliente, desejo uma função de visualizar a localização dos meus pedidos em tempo real, para ter uma estimativa do tempo restante de entrega.</td>
-<td>Essencial</td>
-<td>2</td>
-<td>21 horas</td>   
-</tr>
-   </table>
+        <table>
+            <tr>
+            <th><b>User Story</b></th>
+            <th><b>Prioridade</b></th>
+            <th><b>Sprint</b></th>
+            <th><b>Esforço Estimado</b></th>
+            </tr>
+            <tr>
+            <td>Eu, enquanto cliente, desejo uma função de visualizar a localização dos meus pedidos em tempo real, para ter uma estimativa do tempo restante de entrega.</td>
+            <td>Essencial</td>
+            <td>2</td>
+            <td>21 horas</td>   
+            </tr>
+               </table>
+    </div>
+    <div class="content">
+        <div>
+            <img id="img" src="../static/imagens/productbacklog.png">
+        </div>
     </div>
 </div>
 
-<div class="content">
-    <div>
-        <br><br><br><br><br>
-        <img id="img" src="../static/imagens/productbacklog.png">
-    </div>
-</body>
+{% endblock %}
