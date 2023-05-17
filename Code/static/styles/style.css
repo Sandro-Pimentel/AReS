@@ -147,6 +147,15 @@ b{
     padding: 0;
 }
 
+#corrido{
+    width:85%;
+    display:block;
+    justify-content: center;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+
 #Agilidade{
     width: 50%;
     height: auto;
