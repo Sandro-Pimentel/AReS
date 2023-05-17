@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title> Burndown Chart</title>
+{% endblock %}
+{% block navtitle %}
+    <b class="title">Capítulo 4 - Burndown Chart</b>
+{% endblock %}
+<div id="page-content">
+        <div class="links">
+            <a href="#PB">Product Backlog</a>
+            <a href="#SB">Sprint Backlog</a>
+            <a href="#BC">Burndown Chart</a>
+        </div>
+    <div class="banner">
+        <h1>BURNDOWN CHART</h1>
+    </div>
+
+    <div class="content">
+        <div id="Pilares">
+            <h1 id="BC" class="content h1-1">Burndown Chart</h1>
+            <h3 class="content h3">"Medindo a distância do objetivo."</h3>
+            &nbsp  &nbsp  &nbsp  &nbsp <b>Burndown Chart</b> é uma ferramenta gráfica utilizada em <b>metodologias ágeis</b> de desenvolvimento de software, como o <b>Scrum</b>, para medir e acompanhar o progresso do <b>Time de Desenvolvimento</b> em relação às metas estabelecidas para o <b>sprint</b>.
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp O gráfico mostra a quantidade de trabalho que ainda precisa ser realizado, comparando com o tempo disponível para conclusão do <b>sprint</b>.
+            <br><br>
+            &nbsp  &nbsp  &nbsp  &nbsp  Através do <b>Burndown Chart</b>, é possível visualizar a evolução do trabalho, identificar possíveis atrasos e planejar as atividades que ainda precisam ser realizadas. 
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbsp Ele também ajuda o <b>Time de Desenvolvimento</b> a manter o foco nas tarefas <b>mais importantes</b> e a tomar decisões de forma mais eficiente, permitindo que o sprint seja concluído com sucesso.
+            <br><br>
+            &nbsp  &nbsp  &nbsp  &nbsp   O <b>Burndown Chart</b> é atualizado diariamente pelo <b>DevTeam</b>, de forma que ele possa monitorar seu progresso em relação às metas estabelecidas para o <b>sprint</b>. 
+            <br>
+            &nbsp  &nbsp  &nbsp  &nbspDessa forma, ele se torna uma ferramenta importante para o <b>gerenciamento do tempo</b> e a tomada de decisões eficientes durante o desenvolvimento do produto.
+
+            <h1 id="BC" class="content h1-1">Na prática:</h1>
+            &nbsp  &nbsp  &nbsp  &nbsp Agora que as <b>tarefas</b> já foram todas decididas, é essencial <b>organizar</b> o tempo que o time passará trabalhando na <b>sprint</b>, medindo as tarefas pelo <b>nível de esforço</b> que cada uma necessita. As horas estimadas de cada tarefa é discutido e decidido através do <b>planning poker</b>, adequando-se ao <b>nível de dificuldade</b> e capacidade dos membros do <b>DevTeam</b>.
+            <br><br>
+            &nbsp  &nbsp  &nbsp  &nbsp Após isso, as tarefas, responsáveis, e horas dedicadas são escritas no <b>Burndown Chart</b>, também formando um <b>gráfico</b> baseado no <b>tempo de término</b> das atividades, que varia de acordo com o horário ideal e real tomado por cada tarefa como no exemplo abaixo, sendo o gráfico de uma sprint de 10 dias:
+            
+            <br><br>
+
+            <table>
+                <tr>
+                <th><b>Descrição</b></th>
+                <th><b>Previsão</b></th>
+                <th><b>Horas reais</b></th>
+                <th><b>Responsável</b></th>
+                </tr>
+
+            <tr>
+                <td>Tarefa 1</td>
+                <td>13 horas</td>
+                <td>15 horas</td>
+                <td>Membro 1</td>   
+            </tr>
+
+            <tr>
+                <td>Tarefa 2</td>
+                <td>8 horas</td>
+                <td>5 horas</td>
+                <td>Membro 2</td>
+            </tr>
+
+            <tr>
+                <td>Tarefa 3</td>
+                <td>21 horas</td>
+                <td>21 horas</td>
+                <td>Membro 3</td>   
+            </tr>
+
+            <tr>
+                <td>Tarefa 4</td>
+                <td>5 horas</td>
+                <td>3 horas</td>
+                <td>Membro 4</td>
+            </tr>
+
+        </table>
+        </div>
+        
+        <div>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            
+        <img id="img" src="../static/imagens/burndown.png">
+            
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+            </script>
+        
+        <script>
+            function sumArrayUpTo(arrData, index) {
+              var total = 0;
+              for (var i = 0; i <= index; i++) {
+                if (arrData.length > i) {
+                  total += arrData[i];
+                    }
+              }
+              return total;
+            }
+        
+            function showBurnDown(elementId, burndownData, scopeChange = []) {
+        
+              var speedCanvas = document.getElementById(elementId);
+        
+              Chart.defaults.global.defaultFontFamily = "Arial";
+              Chart.defaults.global.defaultFontSize = 14;
+        
+              const totalHoursInSprint = burndownData[0];
+              const idealHoursPerDay = totalHoursInSprint / 9;
+              i = 0;
+        
+              var speedData = {
+                labels: [ "Dia 1",	"Dia 2",	"Dia 3",	"Dia 4",	"Dia 5",	"Dia 6",	"Dia 7",	"Dia 8",	"Dia 9", "Dia 10"],
+                datasets: [
+                  {
+                    label: "Real",
+                    data: burndownData,
+                    fill: false,
+                    borderColor: "#8121A6",
+                    backgroundColor: "#8121A6",
+                    lineTension: 0,
+                  },
+                  {
+                    label: "Ideal",
+                    borderColor: "#c03ff3",
+                    backgroundColor: "#c03ff3",
+                    lineTension: 0,
+                    borderDash: [5, 5],
+                    fill: false,
+                    data: [
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 0)), // 1
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 1)), // 2
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 2)), // 3
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 3)), // 4
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 4)), // 5
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 5)), // 6
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 6)), // 7
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 7)), // 8
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 8)), // 9
+                      Math.round(totalHoursInSprint - (idealHoursPerDay * i++) + sumArrayUpTo(scopeChange, 9))  // 10
+                    ]
+                  },
+                ]
+              };
+        
+              var chartOptions = {
+                legend: {
+                  display: true,
+                  position: 'top',
+                  labels: {
+                    boxWidth: 80,
+                    fontColor: 'black'
+                  }
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            min: 0,
+                            max: Math.round(burndownData[0] * 1.1)
+                        }
+                    }]
+                }
+              };
+        
+              var lineChart = new Chart(speedCanvas, {
+                type: 'line',
+                data: speedData,
+                options: chartOptions
+              });
+        
+            }
+            </script>
+          </head>
+          
+          <body>
+        
+            <div style="width:475px;"><canvas id="burndown43"></canvas></div>
+            <script>
+            showBurnDown (
+              "burndown43",
+              //   1    2    3    4    5    6    7    8    9   10
+              [    21,  18,  13,  8,  5,   3,   2,   1,   0,           ], // burndown data
+              [   0,   0,   0,   0,   0,  0,   0,   0,   0,   0   ]  // scope change
+            );
+            </script>
+        </div>
+
+    </div>
+    <div class="content">
+        <div>
+            <a href="/productinc" ><img class="seta" src="static/imagens/seta_esq.png" alt=""></a>            
+        </div>
+    </div>
+</div>
+{% endblock %}
