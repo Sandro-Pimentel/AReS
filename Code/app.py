@@ -97,7 +97,13 @@ def fracasso():
 def sucesso():
     return render_template("sucesso.html")
 
+@app.route("/kanban")
+def kanban():
+    return render_template("kanban.html")
 
+@app.route("/planpok")
+def planpok():   
+    return render_template("planpok.html")
 
 @app.route("/examefinal", methods=['GET','POST'])
 def teste():
@@ -118,4 +124,11 @@ def teste():
 
     
 
+@app.route("/mvp")
+def mvp():
+    return render_template("mvp.html")
+
+@app.route("/softskills")
+def softskills():
+    return render_template("softskills.html")
 
