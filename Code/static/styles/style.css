@@ -415,6 +415,9 @@ td, th{
 }
 
 .footer_txt{
-    color: #FFFFFF;
-    font-size: 140%;
+    color: #FFFFFF !important;
+    font-size: 140% !important;
+}
+.sucesso{
+    padding-bottom: 12.2% !important;
 }
