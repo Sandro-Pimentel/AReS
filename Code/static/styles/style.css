@@ -413,3 +413,8 @@ td, th{
     font-size: 250% !important;
     color: #FFFFFF !important;
 }
+
+.footer_txt{
+    color: #FFFFFF;
+    font-size: 140%;
+}
