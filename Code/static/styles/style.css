@@ -421,3 +421,12 @@ td, th{
 .sucesso{
     padding-bottom: 12.2% !important;
 }
+
+.hr_nav{
+    height: 1% !important;
+    width: 100%!important;
+}
+
+.link_nav:link{
+    color: #FFFFFF !important;
+}

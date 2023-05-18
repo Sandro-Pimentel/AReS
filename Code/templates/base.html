@@ -14,19 +14,102 @@
     {% endblock %}
 </head>
 <body>
+
+
+    <style>
+        #sidebar.open{
+    transform: translateX(350px) !important;
+}
+
+#sidebar{
+    /*cor*/
+    background-color: #c03ff3 !important;
+    /*dimensões e posição*/
+    width: 350px !important;
+    height: 100% !important;
+    padding: 0% !important;
+    position: fixed !important;
+    left: -350px !important;
+    /*fonte*/
+    font-family: 'Livvic', sans-serif !important;
+    color: white !important;
+    /**/
+    transform: translateX(0) !important;
+    transition: transform 0.3s ease-in-out !important;
+    overflow: auto !important;
+}
+
+#sidebar li{
+    color: white !important;
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+    margin-bottom: 7% !important;
+}
+
+#sidebar h2{
+    margin-left: 7% !important;
+}
+
+#sidebar-toggle{
+    border: none !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+
+
+
+}
+.link_nav:link{
+color: #ffff !important;
+}
+.link_nav:visited{
+color: #ffff !important;
+}
+
+    </style>
     <!-- side bar \/ -->
     <div id="sidebar">
         <h2> Seleção de Capítulos </h2>
-        <ul>
-            <a href="\definicoes"><li>Capítulo 1 - Definições</li></a><br>
+        <hr class="hr_nav">
+        
+            <a class="" href="\definicoes"><img src="../static/imagens/home1.png" width="30px" height="30px" alt=""></a>Capítulo 1  <br>
+            <a class="link_nav" href="\definicoes">- Definições <br>
+            <a class="link_nav" href="\pilares">- Pilaress <br>
+                
+            <hr class="hr_nav">
             <!-- <a href=""><li>Teste 1 - Definições</li></a><br> -->
-            <a href="\papeis"><li>Capítulo 2 - Responsabilidades e papéis</li></a><br>
-            <!-- <a href=""><li>Teste 2 - Responsabilidades e papeis</li></a><br> -->
-            <a href="\eventos"><li>Capítulo 3 - Eventos do Scrum</li></a><br>
+            <a href="\papeis"><img src="../static/imagens/home1.png" width="30px" height="30px" alt=""></a>Capítulo 2<br>
+            <a class="link_nav" href="\papeis">- Papeis do Scrum <br>
+            <a class="link_nav" href="\po">- Product Owner <br>
+            <a class="link_nav" href="\sm">- Scrum Master  <br>
+            <a class="link_nav" href="\dt">- Dev Team  <br>
+
+
+             <!-- <a href=""></a>Teste 2 - Responsabilidades e papeis<br> -->
+             <hr class="hr_nav">
+            <a href="\eventos"><img src="../static/imagens/home1.png" width="30px" height="30px" alt=""></a>Capítulo 3 <br>
+            <a class="link_nav" href="\eventos">- Eventos  <br>
+            <a class="link_nav" href="\sprintplan">- Sprint Plainning Meeting<br>
+            <a class="link_nav" href="\daily">- Daily Scrum  <br>
+            <a class="link_nav" href="\sprev">- Sprint Review  <br>
+            <a class="link_nav" href="\spret">- Sprint Retrospective  <br>
+            <a class="link_nav" href="\replame">- Release Planning Meeting  <br>
+            
+            
             <!-- <a href=""><li>Teste 3 - Eventos do Scrum</li></a><br> -->
-            <a href="\conteudo4"><li>Capítulo 4 - Artefatos do Scrum</li></a><br>
-            <!-- <a href=""><li>Teste 4 - Artefatos do Scrum</li></a><br> -->
-            <a href="\examefinal"><li>Exame Final - Metodologia Scrum</li></a><br>
+            <hr class="hr_nav">
+            <a href="\conteudo4"><img src="../static/imagens/home1.png" width="30px" height="30px" alt=""></a>Capítulo 4 <br>            <!-- <a href=""><li>Teste 4 - Artefatos do Scrum</li></a><br> -->
+            <a class="link_nav" href="\dorxdod">- DoR x DoD  <br>
+            <a class="link_nav" href="\sprintback">- Sprint Backlog  <br>
+            <a class="link_nav" href="\productinc">- Product Increment <br>
+            <a class="link_nav" href="\burndown">- Bourndown Chart  <br>
+
+                <hr class="hr_nav">
+            <a href="\conteudo4"><img src="../static/imagens/home1.png" width="30px" height="30px" alt=""></a>Capítulo 5  <br>
+
+
+
+            <hr class="hr_nav">
+            <a href="\examefinal"><img src="../static/imagens/home1.png" width="30px" height="30px" alt=""></a>Exame Final - Metodologia Scrum<br>
         </ul>
     </div>
     
