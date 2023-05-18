@@ -1,0 +1,46 @@
+Kanban
+" O Melhor forma de orgazinar é ser ágil, simples e estratégico."
+
+O Kanban é um termo de origem japonesa que significa "sinalização" ou "Cartão" e pode ser definido como um sistema de gestão de produção ou de tarefas que funciona de uma maneira visual e para isso ela propõe o uso de cartões(post-its) para indicar e acompanhar o andamento da produção do projeto.
+
+Quais as vantagens que o Kanban vai trazer para o seu projeto?
+
+
+-Comunicação integrada
+-Priorização de atividades
+-Aumento da produtividade
+-Estímulo do trabalho em equipe
+-Controle sobre as atividades
+-Flexibilidade do fluxo de trabalho
+
+O Kanban trás essas vantagens ajudando a evitar a ociosidade e falta de saber o que deve ser feito, pois ela usa o aspecto visual para deixar bem claro e visível o que está sendo finalizado, o que foi finalizado e o que vai ser feito após a finalização das outras tarefas.
+
+Mas como se usa o Kanban ?
+
+1)O grupo deve pegar o Backlog e dividir as tarefas em listas de áreas, por exemplo: documentação, Html,Css,Banco de dados, etc.Assim vai ser divididas as listas por estilos de tarefas e em cada uma das lista vai ser feita um quadro para gerenciar elas, fazendo essa divisão fica mais claro e organizado do que uma única lista
+
+2)Faça um quadro com 3 divisões em colunas para ser colocado as informações, vale ressaltar que pode ser feito tanto com papel quanto virtualmente, varia do que funciona melhor para cada grupo.
+
+3)A primeira coluna séra a das Tarefas que ainda não foram mas precisam ser feitas, nela são colocadas cartões(post-its) com as tarefas do projeto para todos poderem visualizar.
+
+4)Na segunda coluna é colocada as Tarefas que já estão sendo feitas no momento.
+
+5)Na terceira coluna é colocada as Tarefas que já foram finalizadas.
+
+Essas 3 colonas é usada em cada uma das listas de tarefas para facilitar a visualização e deixar claro o que precisa ser feito, evitando ociosidade e aumentando a produtividade.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
