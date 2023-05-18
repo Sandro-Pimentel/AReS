@@ -77,8 +77,16 @@ def burndown():
 def probacklog():
     return render_template("probacklog.html")
 
-@app.route("/avaliacao")
+@app.route("/avaliacao", methods = ['GET', 'POST'])
 def avaliacao():
+    if request.method == 'POST':
+        lista = ['dg1','dg2','dg3']
+        media = 0
+        for c in lista:
+            for a in c:
+                nota = int(request.form.get(c))
+                media+= nota
+        return media
     return render_template("avaliacao.html")
 
 @app.route("/fracasso")
@@ -113,6 +121,8 @@ def teste():
         else:
             return render_template("fracasso.html", acertos=acertos)
     return render_template("examefinal.html")
+
+    
 
 @app.route("/mvp")
 def mvp():
