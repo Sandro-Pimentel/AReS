@@ -1,0 +1,32 @@
+Planning Poker
+
+"Saber estimar o esforço é saber equilibrar as ações e valorizar o trabalho de todos."
+
+O Plannig Poker é uma ferramentas da metodologia ágil e pode ser definida como uma técnica usada para estimar as tarefas a serem realizas do Backlog atráves de um consenso entre todos da time sobre a dificuldade da tarefa.
+
+Funcionamento e vantagens  do Planning Poker
+
+O funcionamento do Planning poker é simples, no início cada membro do time recebe um conjunto cartas/papeis ou estar dentro de site do Planning para receber valores válidos  para poder estimar.
+
+De forma geral os valores seguem uma escala baseada na sequência Fibonacci – outra sequência pode ser escolhida, porém Fibonacci é a mais utilizada. Na sequência de Fibonacci os números para estimar são:  (0, 1, 2, 3, 
+5, 8, 13,21, 34, 55, 89,  e 100,).
+
+Onde os números mais baixos significam menor dificuldade e os maiores uma maior dificuldade e logo uma maior necessidade de esforço. Os integrantes devem votar e conversar sobre o porquê deram suas notas e entrar num consenso sobre a dificuldade da tarefa e estimar uma quantidade horas que seja suficiente para equilibrado para todos  os integrantes conseguiam realizar no tempo determinado.
+
+O Planning Poker trás diversas vantagens, o formato da reunião  permite que todos os envolvidos conheçam todas as informações a respeito do projeto;permite que as discussões sejam mais estruturadas e além disso a conversa em grupo que ocorre depois da revelação das estimativas iniciais, permite reunir mais ideais sobre as histórias do usuário que estão sendo discutidas,compartilhar conhecimentos e abordar possíveis dificuldades.
+
+Como fazer uma Planning Poker produtivo e ágil:
+
+1)A primeira coisa a se fazer é reunir todo o grupo e usar cartas/papéis ou um site do Planning Poker para poder realizar a votação.(É recomendado o uso do site do Planning poker pela facilidade e agilidade.)
+
+2) Um dos integrantes do grupo deve coordenar a votação, deve pegar os itens do burndown e pegar um dos itens para ser votado pelo time.
+
+3)Após a votação será tirada uma média e apresentada as notas de cada membro,os participantes devem dar opiniões rápidas e sucintas sobre o porquê das notas, não é obrigatório que os membros falem porém é importante os que deram as maiores e mais notas darem suas opiniões para entender pois os que deram notas baixas podem entender bastante sobre o assunto da tarefa e de certa forma passar uma melhor compreensão a quem deu as notas mais altas e provavelmente sabe pouco sobre como realizar a tarefa.
+
+4)Após ouvir as opiniões e a nota média da tarefa deve ser arredondada a a nota mais próxima da sequência de Fibonacci e então decidirem em consenso uma quantidade horas adequedas para qualquer possa resolver a tarefa.
+
+5)Com isso se passa para a proxima tarefa e tenta a cada votação fazer com maior calma e ao mesmo tempo com agilidade sendo direto ao ponto, após todas as tarefas com estimativas de horas é só dividir quem vai fazer o que.
+
+
+
+
