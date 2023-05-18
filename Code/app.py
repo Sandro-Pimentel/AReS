@@ -73,7 +73,7 @@ def productinc():
 def burndown():
     return render_template("burndown.html")
 
-@app.route("/productbacklog")
+@app.route("/probacklog")
 def probacklog():
     return render_template("probacklog.html")
 
