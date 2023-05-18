@@ -50,78 +50,73 @@
 <form method="POST">
     <div class="row">
         <div class="box_teste">
-            <tr>
-                <td>
-                    <h2> Processo </h2>
-                </td> 
-                <td>    
-                    <select name="nota" id="processo">
-                        <option value="0"> 0 </option>
-                        <option value="1"> 1 </option>
-                        <option value="2"> 2 </option>
-                        <option value="3"> 3 </option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h2> Processo </h2>
-                </td>
-                <td>    
-                    <select name="nota" id="produto">
-                        <option value="0"> 0 </option>
-                        <option value="1"> 1 </option>
-                        <option value="2"> 2 </option>
-                        <option value="3"> 3 </option>
-                    </select>
-                </td>
-            </tr>
-            <tr> 
-                <td>    
-                    <select name="nota" id="connhecimento">
-                        <option value="0"> 0 </option>
-                        <option value="1"> 1 </option>
-                        <option value="2"> 2 </option>
-                        <option value="3"> 3 </option>
-                    </select>
-                </td>
-            </tr>
-            <tr> 
-                <td>    
-                    <select name="nota" id="sm">
-                        <option value="0"> 0 </option>
-                        <option value="1"> 1 </option>
-                        <option value="2"> 2 </option>
-                        <option value="3"> 3 </option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>    
-                    <select name="nota" id="po">
-                        <option value="0"> 0 </option>
-                        <option value="1"> 1 </option>
-                        <option value="2"> 2 </option>
-                        <option value="3"> 3 </option>
-                    </select>
-                </td>
-            </tr>
-            <tr> 
-                <td>    
-                    <select name="nota" id="td">
-                        <option value="0"> 0 </option>
-                        <option value="1"> 1 </option>
-                        <option value="2"> 2 </option>
-                        <option value="3"> 3 </option>
-                    </select>
-                </td>
-            </tr>
+            <h1> Desempenho Geral </h1>
+            <hr>
+            <table>
+                <tr>
+                    <td>
+                        <h2> Processo </h2>
+                    </td> 
+                    <td>    
+                        <h2> Produto </h2>
+                    </td>
+                    <td>
+                        <h2> Connhecimento </h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" max="10" min="0" name="dg1">
+                    </td>
+                    <td>
+                        <input type="number" max="10" min="0" name="dg2">
+                    </td>
+                    <td>
+                       <input type="number" max="10" min="0" name="dg3">
+                    </td>                                        
+                </tr>
+            </table>
         </div>
     </div>
             
             <button type="submit" id="btn_exame"><span id="txt_btn_exame">Enviar</span></button>
+            <h1>{% print(media) %}</h1>
 </form>
 
+<form method="POST">
+        <div class="row">
+            <div class="box_teste">
+                <h1> Desempenho da Equipe </h1>
+                <hr>
+                <table>
+                    <tr>
+                        <td>
+                            <h2> Scrum Master </h2>
+                        </td> 
+                        <td>    
+                            <h2> Product Owner </h2>
+                        </td>
+                        <td>
+                            <h2> Dev Team </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="number" max="10" min="0" name="de1">
+                        </td>
+                        <td>
+                            <input type="number" max="10" min="0" name="de2">
+                        </td>
+                        <td>
+                           <input type="number" max="10" min="0" name="de3">
+                        </td>                                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+                
+                <button type="submit" id="btn_exame"><span id="txt_btn_exame">Enviar</span></button>
+    </form>
 
     <script>
         const toggleButton = document.getElementById('sidebar-toggle');
