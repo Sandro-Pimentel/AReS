@@ -115,3 +115,7 @@ def mvp():
 @app.route("/softskills")
 def softskills():
     return render_template("softskills.html")
+
+@app.route("/kanban")
+def kanban():
+    return render_template("kanban.html")
