@@ -398,6 +398,21 @@ input[type="radio"]:checked {
     margin-bottom: 2% !important;
 }
 
+#btn_exame2 {
+    margin-left: 40% !important;
+    width: 20% !important;
+    padding-top: 2% !important;
+    text-align: center !important;
+    border-radius: 50px !important; /* Define o raio das bordas para obter o efeito arredondado */
+    display: flex !important; /* Ativa o flexbox */
+    justify-content: center !important; /* Alinha horizontalmente o conteúdo ao centro */
+    align-items: center !important; /* Alinha verticalmente o conteúdo ao centro */
+    background-color: #d181f0 !important;
+    border-color: #d181f0 !important;
+    border-style: solid !important;
+    margin-bottom: 2% !important;
+}
+
 #txt_btn_exame{
     margin-bottom: 6% !important;
     font-size: 250% !important;

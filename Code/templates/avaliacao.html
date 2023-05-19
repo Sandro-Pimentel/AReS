@@ -50,7 +50,7 @@
 <form method="POST">
     <div class="row">
         <div class="box_teste">
-            <h1> Desempenho Geral </h1>
+            <h1> Desempenho Coletivo </h1>
             <hr>
             <table>
                 <tr>
@@ -66,27 +66,25 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="number" max="10" min="0" name="dg1">
+                        <input type="number" max="10" min="1" name="dg1" value="1">
                     </td>
                     <td>
-                        <input type="number" max="10" min="0" name="dg2">
+                        <input type="number" max="10" min="1" name="dg2" value="1">
                     </td>
                     <td>
-                       <input type="number" max="10" min="0" name="dg3">
+                       <input type="number" max="10" min="1" name="dg3" value="1">
                     </td>                                        
                 </tr>
+                <tr>
+                    <td>
+                        <h1> Media Coletiva: </h1>
+                    </td>
+                    <td> 
+                        <h1>{% print(media1) %}</h1>
+                    </td> 
+                </tr>
             </table>
-        </div>
-    </div>
-            
-            <button type="submit" id="btn_exame"><span id="txt_btn_exame">Enviar</span></button>
-            <h1>{% print(media) %}</h1>
-</form>
-
-<form method="POST">
-        <div class="row">
-            <div class="box_teste">
-                <h1> Desempenho da Equipe </h1>
+                <h1> Desempenho das Funções </h1>
                 <hr>
                 <table>
                     <tr>
@@ -102,20 +100,28 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="number" max="10" min="0" name="de1">
+                            <input type="number" max="10" min="1" name="de1" value="1">
                         </td>
                         <td>
-                            <input type="number" max="10" min="0" name="de2">
+                            <input type="number" max="10" min="1" name="de2" value="1">
                         </td>
                         <td>
-                           <input type="number" max="10" min="0" name="de3">
+                           <input type="number" max="10" min="1" name="de3" value="1">
                         </td>                                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <h1> Media das Funções: </h1>
+                        </td>
+                        <td> 
+                            <h1>{% print(media2) %}</h1>
+                        </td> 
                     </tr>
                 </table>
             </div>
         </div>
                 
-                <button type="submit" id="btn_exame"><span id="txt_btn_exame">Enviar</span></button>
+                <button type="submit" name="bot2" id="btn_exame"><span id="txt_btn_exame">Enviar</span></button>
     </form>
 
     <script>

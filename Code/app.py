@@ -80,13 +80,20 @@ def probacklog():
 @app.route("/avaliacao", methods = ['GET', 'POST'])
 def avaliacao():
     if request.method == 'POST':
-        lista = ['dg1','dg2','dg3']
-        media = 0
+        lista = ['dg1','dg2','dg3','de1','de2','de3']
+
+        count, media1, media2 = 0, 0, 0
         for c in lista:
-            for a in c:
-                nota = int(request.form.get(c))
-                media+= nota
-        return media
+            nota = int(request.form.get(c))
+            if count < 3:
+                media1+= nota
+            else:
+                media2+= nota
+            count+=1
+        media1/=3
+        media2/=3
+        return render_template("avaliacao.html", media1 = media1, media2 = media2)
+
     return render_template("avaliacao.html")
 
 @app.route("/fracasso")
