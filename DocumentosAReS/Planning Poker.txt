@@ -28,5 +28,36 @@ Como fazer uma Planning Poker produtivo e ágil:
 5)Com isso se passa para a proxima tarefa e tenta a cada votação fazer com maior calma e ao mesmo tempo com agilidade sendo direto ao ponto, após todas as tarefas com estimativas de horas é só dividir quem vai fazer o que.
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
+O que é planning poker?
+Planning poker é uma técnica de estimar o esforço necessário para a realização de determinada tarefa do backlog utilizando do 
+consenso da equipe. Cada integrante da equipe terá uma série de cartas numeradas, normalmente na sequência de Fibonacci,
+para determinar, em sua visão o esforço necessário para a realização da tarefa, então o time entra em um debate para chegar a uma
+média ou consenso a respeito desse esforço.
+
+O que é estimar?
+Estimar é determinar aproximadamente, no caso do Scrum, o tempo e o esforço de uma tarefa do backlog. 
+
+Sequência de Fibonacci
+A sequência de fibonacci é ordem numérica que consiste na soma dos seus dois termos anteriores, iniciando pelo 0 e 1, portanto os
+próximos valores são 2, 3, 5, 8, 13, 21, 34, 55, 89, seguindo o mesmo padrão. Utiliza-se essa sequência, pelo fato de os números,
+conforme progridem, têm uma distância cada vez maior entre eles, diminuindo as possibilidades de grande defazagem entre as 
+estimativas da equipe.
+
+Regras
+São distribuídas as 13 cartas do baralho Planning Poker, onde:
+0 - Um item já completado ou pequeno demais para estimar 
+1/2 - Itens muito pequenos
+1 - Itens pequenos 
+2 - Itens pequenos
+3 - Itens pequenos
+5 - Itens médios
+8 - Itens médios
+13 - Itens médios
+20 - Itens grandes
+40 - Itens grandes
+100 - Item muito grande
+? - Não se sabe a estimativa do item 
+Infinito - Item grande demais para estimar
 
