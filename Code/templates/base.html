@@ -74,7 +74,8 @@ color: #ffff !important;
             <a class="" href="\definicoes"><img src="../static/imagens/home1.png" width="30px" height="30px" alt=""></a>Capítulo 1  <br>
             <a class="link_nav" href="\definicoes">- Definições <br>
             <a class="link_nav" href="\pilares">- Pilares <br>
-                
+            <a class="link_nav" href="\exame1">- Exame - Capítulo 1 <br>    
+
             <hr class="hr_nav">
             <!-- <a href=""><li>Teste 1 - Definições</li></a><br> -->
             <a href="\papeis"><img src="../static/imagens/home1.png" width="30px" height="30px" alt=""></a>Capítulo 2<br>
@@ -82,7 +83,7 @@ color: #ffff !important;
             <a class="link_nav" href="\po">- Product Owner <br>
             <a class="link_nav" href="\sm">- Scrum Master  <br>
             <a class="link_nav" href="\dt">- Dev Team  <br>
-
+            <a class="link_nav" href="\exame2">- Exame - Capítulo 2 <br>
 
              <!-- <a href=""></a>Teste 2 - Responsabilidades e papeis<br> -->
              <hr class="hr_nav">
@@ -93,6 +94,7 @@ color: #ffff !important;
             <a class="link_nav" href="\sprev">- Sprint Review  <br>
             <a class="link_nav" href="\spret">- Sprint Retrospective  <br>
             <a class="link_nav" href="\replame">- Release Planning Meeting  <br>
+            <a class="link_nav" href="\exame3">- Exame - Capítulo 3 <br>
             
             
             <!-- <a href=""><li>Teste 3 - Eventos do Scrum</li></a><br> -->
@@ -102,6 +104,7 @@ color: #ffff !important;
             <a class="link_nav" href="\sprintback">- Sprint Backlog  <br>
             <a class="link_nav" href="\productinc">- Product Increment <br>
             <a class="link_nav" href="\burndown">- Burndown Chart  <br>
+            <a class="link_nav" href="\exame4">- Exame - Capítulo 4 <br>
 
                 <hr class="hr_nav">
             <a href="\conteudo4"><img src="../static/imagens/home1.png" width="30px" height="30px" alt=""></a>Capítulo 5  <br>
@@ -119,8 +122,8 @@ color: #ffff !important;
                 <button id="sidebar-toggle"><img src="../static/imagens/menu1.png"></button>
             </div>
         <div>
-        {% block navtitle %}
-        {% endblock %}
+{% block navtitle %}
+{% endblock %}
         </div>
             <div class="element">
                 <a href="\index"><img src="../static/imagens/home1.png"></a>
@@ -161,7 +164,6 @@ color: #ffff !important;
 
 
 </style>
-<body>
         <div class="wrapper">
             <footer class="footer">
             <div class="container">
@@ -169,14 +171,14 @@ color: #ffff !important;
             </footer>
         </div>
       
-    <script>
-        const toggleButton = document.getElementById('sidebar-toggle');
-        const sideBar = document.getElementById('sidebar');
-        const pageContent = document.getElementById('page-content');
+<script>
+    const toggleButton = document.getElementById('sidebar-toggle');
+    const sideBar = document.getElementById('sidebar');
+    const pageContent = document.getElementById('page-content');
 
-        toggleButton.addEventListener('click', ()=>{sideBar.classList.toggle('open')});
-        pageContent.addEventListener('click', ()=>{sideBar.classList.remove('open')})
-    </script>
+    toggleButton.addEventListener('click', ()=>{sideBar.classList.toggle('open')});
+    pageContent.addEventListener('click', ()=>{sideBar.classList.remove('open')})
+</script>
 
 </body>
 </html>

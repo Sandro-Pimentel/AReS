@@ -15,6 +15,10 @@ def definicoes():
 def pilares():
     return render_template("pilares.html")
 
+@app.route("/exame1")
+def exame1():
+    return render_template("exame1.html")
+
 @app.route("/papeis")
 def papeis():
     return render_template("papeis.html")
@@ -30,6 +34,10 @@ def sm():
 @app.route("/dt")
 def dt():
     return render_template("dt.html")
+
+@app.route("/exame2")
+def exame2():
+    return render_template("exame2.html")
 
 @app.route("/eventos")
 def eventos():
@@ -57,6 +65,10 @@ def spret():
 def replame():
     return render_template("relplamee.html")
 
+@app.route("/exame3")
+def exame3():
+    return render_template("exame3.html")
+
 @app.route("/dorxdod")
 def dorxdod():
     return render_template("dorxdod.html")
@@ -72,6 +84,10 @@ def productinc():
 @app.route("/burndown")
 def burndown():
     return render_template("burndown.html")
+
+@app.route("/exame4")
+def exame4():
+    return render_template("exame4.html")
 
 @app.route("/probacklog")
 def probacklog():
@@ -111,6 +127,74 @@ def kanban():
 @app.route("/planpok")
 def planpok():   
     return render_template("planpok.html")
+
+@app.route("/exame1", methods=['GET','POST'])
+def teste1():
+    if request.method == 'POST':
+        questoes = '''qt1 qt2 qt3 qt4 qt5 qt6 qt7 qt8'''.split()
+        acertos = 0
+        for c in questoes:
+            checkbox_value = request.form.get(c)
+            if checkbox_value == None:
+                return render_template("exame1.html")
+            if checkbox_value == 'true':
+                acertos+=1 
+        if acertos >= 6:
+            return render_template("sucesso.html", acertos=acertos)
+        else:
+            return render_template("fracasso.html", acertos=acertos)
+    return render_template("exame1.html")
+
+@app.route("/exame2", methods=['GET','POST'])
+def teste2():
+    if request.method == 'POST':
+        questoes = '''qt1 qt2 qt3 qt4 qt5 qt6 qt7 qt8'''.split()
+        acertos = 0
+        for c in questoes:
+            checkbox_value = request.form.get(c)
+            if checkbox_value == None:
+                return render_template("exame2.html")
+            if checkbox_value == 'true':
+                acertos+=1 
+        if acertos >= 6:
+            return render_template("sucesso.html", acertos=acertos)
+        else:
+            return render_template("fracasso.html", acertos=acertos)
+    return render_template("exame2.html")
+
+@app.route("/exame3", methods=['GET','POST'])
+def teste3():
+    if request.method == 'POST':
+        questoes = '''qt1 qt2 qt3 qt4 qt5 qt6 qt7 qt8'''.split()
+        acertos = 0
+        for c in questoes:
+            checkbox_value = request.form.get(c)
+            if checkbox_value == None:
+                return render_template("exame3.html")
+            if checkbox_value == 'true':
+                acertos+=1 
+        if acertos >= 6:
+            return render_template("sucesso.html", acertos=acertos)
+        else:
+            return render_template("fracasso.html", acertos=acertos)
+    return render_template("exame3.html")
+
+@app.route("/exame4", methods=['GET','POST'])
+def teste4():
+    if request.method == 'POST':
+        questoes = '''qt1 qt2 qt3 qt4 qt5 qt6 qt7 qt82'''.split()
+        acertos = 0
+        for c in questoes:
+            checkbox_value = request.form.get(c)
+            if checkbox_value == None:
+                return render_template("exame4.html")
+            if checkbox_value == 'true':
+                acertos+=1 
+        if acertos >= 6:
+            return render_template("sucesso.html", acertos=acertos)
+        else:
+            return render_template("fracasso.html", acertos=acertos)
+    return render_template("exame4.html")
 
 @app.route("/examefinal", methods=['GET','POST'])
 def teste():

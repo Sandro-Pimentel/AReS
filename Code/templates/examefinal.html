@@ -1,50 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;700&display=swap" rel="stylesheet">
-    <link href="../static/styles/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="../static/styles/css.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;700&display=swap" rel="stylesheet">
-    <title>Exame Final</title>
-</head>
-<body>
-    <!-- side bar \/ -->
-    <div id="sidebar">
-        <h2> Seleção de Capítulos </h2>
-        <ul>
-            <a href="\definicoes"><li>Capítulo 1 - Definições</li></a><br>
-            <!-- <a href=""><li>Teste 1 - Definições</li></a><br> -->
-            <a href="\papeis"><li>Capítulo 2 - Responsabilidades e papéis</li></a><br>
-            <!-- <a href=""><li>Teste 2 - Responsabilidades e papeis</li></a><br> -->
-            <a href="\eventos"><li>Capítulo 3 - Eventos do Scrum</li></a><br>
-            <!-- <a href=""><li>Teste 3 - Eventos do Scrum</li></a><br> -->
-            <a href="\conteudo4"><li>Capítulo 4 - Artefatos do Scrum</li></a><br>
-            <!-- <a href=""><li>Teste 4 - Artefatos do Scrum</li></a><br> -->
-            <a href="\examefinal"><li>Exame Final - Metodologia Scrum</li></a><br>
-        </ul>
-    </div>
-    <header>
-        <div class="nav">
-            <div class="element">
-                <button id="sidebar-toggle"><img src="../static/imagens/menu1.png"></button>
-            </div>
-        <div>
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title>Exame Final</title>
+{% endblock %}
+{% block navtitle %}
+<b class="title">Exame Final</b>
+{% endblock %}
 
-            <b class="title">Exame Final</b>
-
-        </div>
-            <div class="element">
-                <a href="\index"><img src="../static/imagens/home1.png"></a>
-            </div>
-        </div>
-    
-    </header>
 
  <h1 class="content h1">Exame de validação de compreensão</h1>
 <form method="POST">
@@ -65,7 +27,7 @@
             </div>
         </div>
     </div>
-
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
@@ -83,6 +45,7 @@
             </div>
         </div>
     </div>
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
@@ -100,6 +63,7 @@
             </div>
         </div>
     </div>
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
@@ -112,18 +76,18 @@
                 <input name="qt4" class="radio_box" id="4alt1" type="radio" value=true> <span class="txt_qt"> Product Owner<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
                 <input name="qt4" class="radio_box" id="4alt2" type="radio" value=false> <span class="txt_qt"> Scrum Master <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
                 <input name="qt4" class="radio_box" id="4alt3" type="radio" value=false> <span class="txt_qt"> Gerenciador <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
-                <input name="qt4" class="radio_box" id="4alt4" type="radio" value=false> <span class="txt_qt"> lider do time de desenvolvimento<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                <input name="qt4" class="radio_box" id="4alt4" type="radio" value=false> <span class="txt_qt"> Líder do time de desenvolvimento<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
         
             </div>
         </div>
     </div>
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
                 <!-- ADICIONAR PERGUNTA AQUI tema 2 -->5 - Por que é bom e importante para um time de desenvolvimento ser composto por diferentes perfis profissionais como arquitetos, analistas, designers, desenvolvedores, testadores?
             </p>
-            <br>
-        
+<br><br>        
             <div class="qt">
           
                 <input name="qt5" class="radio_box" id="5alt1" type="radio" value=true> <span class="txt_qt"> Para ter diferentes opiniões e pontos de vistas, além da experiência diversificada para trazer maior criatividade.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
@@ -134,14 +98,15 @@
             </div>
         </div>
     </div>
+
+<br><br>
+
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
                 <!-- ADICIONAR PERGUNTA AQUI tema 2 -->6 - Em relação aos processos de criação do produto, quem é responsável pelas pequenas tarefas diárias, pelo andamento das ações,qualidade,prazo entre outros fatores do microgerenciamento da produção do produto?
-resposta:Time de Desenvolvimento
             </p>
-            <br>
-        
+<br><br>        
             <div class="qt">
           
                 <input name="qt6" class="radio_box" id="6alt1" type="radio" value=false> <span class="txt_qt"> Scrum Master<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
@@ -152,6 +117,7 @@ resposta:Time de Desenvolvimento
             </div>
         </div>
     </div>
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
@@ -169,6 +135,7 @@ resposta:Time de Desenvolvimento
             </div>
         </div>
     </div>
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
@@ -186,6 +153,7 @@ resposta:Time de Desenvolvimento
             </div>
         </div>
     </div>
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
@@ -203,6 +171,7 @@ resposta:Time de Desenvolvimento
             </div>
         </div>
     </div>
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
@@ -220,6 +189,7 @@ resposta:Time de Desenvolvimento
             </div>
         </div>
     </div>
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
@@ -237,6 +207,7 @@ resposta:Time de Desenvolvimento
             </div>
         </div>
     </div>
+<br><br>
     <div class="row">
         <div class="box_teste">
             <p class="txt_box">
@@ -253,55 +224,12 @@ resposta:Time de Desenvolvimento
             </div>
         </div>
     </div>
-            
+<br><br>         
             <button type="submit" id="btn_exame"><span id="txt_btn_exame">Enviar</span></button>
         </form>
 
 
         <br><br><br><br><br>
-        <style>
-            html, body {
-              height: 100%;
-              margin: 0;
-              padding: 0;
-            }
-        
-            .wrapper {
-              position: relative;
-            }
-        
-            .content {
-              padding-bottom: 60px; /* Altura do footer */
-            }
-        
-            .footer {
-              background-color: #D181F0;
-              padding: 20px;
-              text-align: center;
-              position: absolute;
-              bottom: 0;
-              width: 100%;}
-        
-        
-        
-        </style>
-        <body>
-                <div class="wrapper">
-                    <footer class="footer">
-                    <div class="container">
-                      <span class="footer_txt">© 2023 Scrum Academy AReS. Todos os direitos reservados.</span>
-                    </footer>
-                </div>
-              
 
-    <script>
-        const toggleButton = document.getElementById('sidebar-toggle');
-        const sideBar = document.getElementById('sidebar');
-        const pageContent = document.getElementById('page-content');
 
-        toggleButton.addEventListener('click', ()=>{sideBar.classList.toggle('open')});
-        pageContent.addEventListener('click', ()=>{sideBar.classList.remove('open')})
-    </script>
-
-</body>
-</html>
+{% endblock %}  
