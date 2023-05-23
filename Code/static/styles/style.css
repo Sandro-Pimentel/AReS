@@ -180,9 +180,26 @@ b{
 
 #imgInspecao{
     margin-top: 90% !important;
-    margin-bottom: 0% !important;
-    margin-left: 0% !important;
+    margin-bottom: 15% !important;
+    margin-left: 20% !important;
     margin-right: 0% !important;
+    height: 30%;
+}
+
+#imgAgilidade{
+    margin-left: 20%;
+    width: 406px;
+    height: 406px;
+}
+
+#videodef{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+#videopilar{
+    margin-bottom: 0%;
+    margin-left: 10%;
 }
 
 hr{
