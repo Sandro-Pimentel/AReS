@@ -5,3 +5,8 @@ BURNDOWN CHART
       Através do Burndown Chart, é possível visualizar a evolução do trabalho, identificar possíveis atrasos e planejar as atividades que ainda precisam ser realizadas. Ele também ajuda o Time de Desenvolvimento a manter o foco nas tarefas mais importantes e a tomar decisões de forma mais eficiente, permitindo que o sprint seja concluído com sucesso. 
 
      O Burndown Chart é atualizado diariamente pelo DevTeam, de forma que ele possa monitorar seu progresso em relação às metas estabelecidas para o sprint. Dessa forma, ele se torna uma ferramenta importante para o gerenciamento do tempo e a tomada de decisões eficientes durante o desenvolvimento do produto. 
+
+Passo-a-passo para fazer um Burndown
+
+       É importante ressaltar que não existe exatamente uma forma para realizar o Burndown, nem somente um modelo, o mais essencial é a existência do gráfico para o auxílio do Time Scrum a entender como está sendo o seu desenvolvimento ao longo da Sprint.  
+	Uma das formas de fazer o Burndown é, primeiramente, levantando as tarefas da Sprint assim como prevendo seu tempo de execução, uma das formas de medir o esforço tomado por cada tarefa é por meio do Planning Poker por exemplo, após isso, as tarefas são divididas entre a equipe. Assim é marcado o dia de início e o dia final de cada tarefa de acordo com que for concluída, depois ao final da Sprint é possível tirar um gráfico usando o tempo total de horas previstas contra os dias trabalhados, assim podendo ser percebido os atrasos e pontos positivos da Sprint. 
