@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="72pt"
+    height="72pt"
+    viewBox="0 0 72 72">
+<defs/>
+<path id="shape0" transform="translate(11.5338162721139, 16.3079912544795)" fill="none" stroke="#851db5" stroke-width="10.08" stroke-linecap="round" stroke-linejoin="round" d="M0.0487441 24.3997C-0.631457 15.9542 5.71543 0.977537 24.8745 0C38.7652 0.117168 49.9305 7.21666 51.7011 23.5821C50.6887 47.499 30.8088 49.8269 23.7937 49.1746C9.15205 47.4935 1.23706 39.2352 0.0487441 24.3997Z"/><path id="shape1" transform="translate(20.1069587091593, 1.49844803387158)" fill="#851db5" fill-rule="evenodd" d="M21.4645 31.6439L21.4145 0L0 16.5783Z"/><path id="shape2" transform="translate(29.8456589026272, 20.6112210208258)" fill="#480075" fill-rule="evenodd" d="M0 4.27179L2.7465 6.25076L11.586 0.97794L11.5773 0Z"/><path id="shape3" transform="translate(8.76510166424343, 34.1174035358315)" fill="#480075" fill-rule="evenodd" d="M8.64525 0C7.9792 1.40891 7.65008 3.34924 7.65788 5.82099C7.66515 8.12255 7.9328 9.93601 8.46084 11.2614L0 5.21386C0.441464 5.02129 3.32321 3.28334 8.64525 0Z"/><path id="shape4" transform="translate(40.805283243819, 60.2172511468148)" fill="#480075" fill-rule="evenodd" d="M0 0.534341L1.30718 1.84152L1.30718 0.000199087C1.38956 -0.00680969 0.953834 0.171238 0 0.534341Z"/><path id="shape5" transform="translate(56.2505791102417, 43.2235966823388)" fill="#480075" fill-rule="evenodd" d="M0.476677 17.6813L1.90199 0C1.24725 2.73718 0.587085 5.54795 0.0449226 6.75861C-0.0825816 6.7347 0.0613365 10.3756 0.476677 17.6813Z"/><path id="shape6" transform="translate(55.3059078666759, 20.5549191646476)" fill="#480075" fill-rule="evenodd" d="M1.22429 0L2.4685 16.0713L0 8.85344C0.00724431 8.86303 0.41534 5.91188 1.22429 0Z"/><path id="shape7" transform="translate(10.2828284571446, 20.2878229486487)" fill="#48226d" fill-rule="evenodd" d="M31.16 0.00992951L31.1288 9.32973L46.3755 0L46.5503 41.0327L31.2886 30.2559L31.3349 41.134L0 19.0076L31.16 0.00992951"/><path id="shape8" transform="translate(41.4626405561365, 27.3941554108255)" fill="#300f4f" fill-rule="evenodd" d="M0 23.1006L0 2.03242L3.45484 0L1.05468 23.6863Z"/>
+</svg>
