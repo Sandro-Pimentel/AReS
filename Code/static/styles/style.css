@@ -158,6 +158,14 @@ b{
     text-align: justify !important;
 }
 
+#modelo{
+    width: 85% !important;
+    display: block !important;
+    justify-content: center !important;
+    margin-left: 5% !important;
+    text-align: center;
+}
+
 #Agilidade{
     width: 50% !important;
     height: auto !important;
@@ -285,6 +293,15 @@ a.btn_cont_b{
     border-radius: 70px !important;
     border: none !important;
     font-size: 300% !important;
+}
+
+a.btn_down{
+    background-color: #AB1BE3 !important;
+    color: white !important;
+    padding: 5% !important;
+    border-radius: 70px !important;
+    border: none !important;
+    font-size: 200% !important;
 }
 
 .div_geral_index{
