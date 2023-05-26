@@ -462,3 +462,9 @@ td, th{
 .link_nav:link{
     color: #FFFFFF !important;
 }
+
+
+.img_spla{
+    width: 100%;
+    height: 100%;
+}
