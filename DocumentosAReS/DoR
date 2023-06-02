@@ -2,4 +2,27 @@ Sempre antes de iniciar uma história de usuário, é necessário ter conhecimen
 O DoR ou Definition of Ready, é uma definição de critérios necessários para que uma história possa ser iniciada.
 O primeiro passo a se seguir para a produção do DoR é identificar os fatores crusciais fazendo as seguintes perguntas:
 - O que meu time precisa para o início do desenvolvimento?
-- 
+- O que já deve estar pronto para o início do desenvolvimento?
+- Quais as dependências (acessos, ferramentas, documentação e ambientes) são necessários para o desenvolvimento?
+- O que precisa ser permitido e aprovado antes do início do desenvolvimento?
+- Quais práticas e técnicas precisam ser feitas para o início do desenvolvimento?
+
+Exemplo prático de DoR
+
+Será usado como exemplo de Definition of Ready e Definition of Done, o desenvolvimento de uma funcionalidade nova para um aplicativo de delivery fictício.
+O PO de um aplicativo de delivery de comida percebe que a avaliação do app é baixa devido ao tempo de espera para entrega.
+Ele sugere que o time de desenvolvimento trabalhe em uma funcionalidade de rastreamento de entregas em tempo real e, antes de priorizá-la no topo do backlog, é necessário se criar uma história de usuário. 
+Para que não seja desperdiçado esforço na criação da user story, o PO então se pergunta:
+- O que meu time precisa para o início do desenvolvimento? 
+- Máquinas aptas a programar com as tecnologias da linguagem utilizada. A equipe possuí essas máquinas.
+- O que já deve estar pronto para o início do desenvolvimento?
+- As funcionalidades básicas do aplicativo devem estar em funcionamento para que seja implementada e testada a nova funcionalidade. O aplicativo já possuí as funcionalidades básicas.
+- Quais as dependências (acessos, ferramentas, documentação e ambientes) são necessários para o desenvolvimento?
+- Não são necessárias dependências para o desenvolvimento.
+- O que precisa ser permitido e aprovado antes do início do desenvolvimento?
+- São necessárias as permissões de dados de geolocalização.
+- Quais práticas e técnicas precisam ser feitas para o início do desenvolvimento?
+- A equipe necessita ter conhecimentos de bibliotecas de geolocalização na linguagem que o aplicativo está trabalhando. O Dev Team possuí esses conhecimentos.
+
+Se na análise fosse identificado algum fator cruscial não atendido seria necessário abortar a tarefa ou trabalhar na busca dos fatores para a continuidade da tarefa. 
+Nesse caso a equipe possui todos os fatores necessários para o desenvolvimento dessa tarefa, sendo assim, o PO pode trabalhar tranquilamente na user story.
