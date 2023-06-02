@@ -78,6 +78,14 @@
 ![](https://github.com/Sandro-Pimentel/AReS/blob/main/Images/sprint%203%20gif.gif)
 ---
 
+##⚡Quick Start:
+
+* [Quick Start](https://github.com/Sandro-Pimentel/AReS/blob/main/DocumentosAReS/quickstart.md)
+
+
+
+
+---
 ## 👨‍💻 Dev Team
 |Integrantes|Função|Github|LinkedIn|
 | --------- | ---- | ---- |--------|
