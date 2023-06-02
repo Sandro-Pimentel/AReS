@@ -489,6 +489,17 @@ td, th{
     color: #FFFFFF !important;
 }
 
+#btn_avaliacao{
+    background-color: #AB1BE3 !important;
+    color: white !important;
+    padding: 5% !important;
+    border-radius: 70px !important;
+    border: none !important;
+    font-size: 300% !important;
+    font-family: 'Livvic', sans-serif !important;
+    margin-bottom: 2% !important;
+}
+
 .footer_txt{
     color: #FFFFFF !important;
     font-size: 140% !important;
