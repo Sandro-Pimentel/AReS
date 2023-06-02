@@ -122,7 +122,8 @@ b{
     /*dimensões e posição*/
     width: 250px !important;
     height: 100% !important;
-    padding: 0% !important;
+    /* padding: 0% !important; */
+    padding-left: 2% !important;
     position: fixed !important;
     left: -250px !important;
     /*fonte*/
@@ -187,8 +188,8 @@ b{
 }
 
 #imgInspecao{
-    margin-top: 90% !important;
-    margin-bottom: 15% !important;
+    margin-top: 10% !important;
+    margin-bottom: 40% !important;
     margin-left: 20% !important;
     margin-right: 0% !important;
     height: 30%;
@@ -208,6 +209,10 @@ b{
 #videopilar{
     margin-bottom: 0%;
     margin-left: 10%;
+}
+
+#menu{
+    margin-left: 15% !important;
 }
 
 hr{
@@ -472,7 +477,7 @@ td, th{
 }
 
 .hr_nav{
-    height: 1% !important;
+    height: 0,5% !important;
     width: 100%!important;
 }
 
