@@ -1,0 +1,6 @@
+- O primeiro passo para utilizar o site é fazer o download da pasta;
+- Apos ter feito o download descompacte a pasta AReS-MAIN;
+- Abra o PowerShell o iniciando como admnistrador, dentro dele uso o comando "Set-ExecutionPolicy Unrestricted".
+- Abra o site "https://www.python.org/", va em downloads e instale a versão mais recente do python;
+- Já dentro do Visual Studio Code abra um novo terminal ou use o atalho ctrl+shift+';
+- Dentro do terminal use 
