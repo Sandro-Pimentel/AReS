@@ -310,10 +310,12 @@ a.btn_down{
 }
 
 .div_geral_index{
-    display: flex !important;
+    /* display: flex !important; */
     justify-content: space-between !important;
     margin-top: 8% !important;
     padding-bottom: 3% !important;
+    max-width: 98% !important;
+    font-size: 140% !important;
 }
 
 .div_btns_index{
@@ -340,6 +342,7 @@ a.btn_down{
     flex-direction: column !important;
     justify-content: space-between !important;
     font-size: 140% !important;
+    text-align: center !important;
 }
 
 .b_index{
@@ -394,6 +397,24 @@ a.btn_down{
 .txt_qt{
     text-align: justify !important;
     font-size: 150% !important;
+}
+
+.txt_qtc{
+    text-align: justify !important;
+    font-size: 150% !important;
+    color: chartreuse !important;
+}
+
+#c{
+    font-size: 200% !important;
+    text-align: center !important;
+    margin-bottom: 10%;
+}
+
+.txt_qte{
+    text-align: justify !important;
+    font-size: 150% !important;
+    color: red !important;
 }
 
 .qt{

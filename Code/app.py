@@ -15,9 +15,9 @@ def definicoes():
 def pilares():
     return render_template("pilares.html")
 
-@app.route("/exame1")
+@app.route("/exame1b")
 def exame1():
-    return render_template("exame1.html")
+    return render_template("exame1b.html")
 
 @app.route("/papeis")
 def papeis():
@@ -35,9 +35,9 @@ def sm():
 def dt():
     return render_template("dt.html")
 
-@app.route("/exame2")
+@app.route("/exame2b")
 def exame2():
-    return render_template("exame2.html")
+    return render_template("exame2b.html")
 
 @app.route("/eventos")
 def eventos():
@@ -65,9 +65,9 @@ def spret():
 def replame():
     return render_template("relplamee.html")
 
-@app.route("/exame3")
+@app.route("/exame3b")
 def exame3():
-    return render_template("exame3.html")
+    return render_template("exame3b.html")
 
 @app.route("/dorxdod")
 def dorxdod():
@@ -85,9 +85,9 @@ def productinc():
 def burndown():
     return render_template("burndown.html")
 
-@app.route("/exame4")
+@app.route("/exame4b")
 def exame4():
-    return render_template("exame4.html")
+    return render_template("exame4b.html")
 
 @app.route("/probacklog")
 def probacklog():
@@ -133,16 +133,18 @@ def teste1():
     if request.method == 'POST':
         questoes = '''qt1 qt2 qt3 qt4 qt5 qt6 qt7 qt8'''.split()
         acertos = 0
+        a = 1
+        e = 9
         for c in questoes:
             checkbox_value = request.form.get(c)
             if checkbox_value == None:
                 return render_template("exame1.html")
             if checkbox_value == 'true':
-                acertos+=1 
+                acertos+=1
         if acertos >= 6:
-            return render_template("sucesso.html", acertos=acertos)
+            return render_template("exame1b.html", acertos=acertos)
         else:
-            return render_template("fracasso.html", acertos=acertos)
+            return render_template("exame1b.html", acertos=acertos)
     return render_template("exame1.html")
 
 @app.route("/exame2", methods=['GET','POST'])
@@ -157,9 +159,9 @@ def teste2():
             if checkbox_value == 'true':
                 acertos+=1 
         if acertos >= 6:
-            return render_template("sucesso.html", acertos=acertos)
+            return render_template("exame2b.html", acertos=acertos)
         else:
-            return render_template("fracasso.html", acertos=acertos)
+            return render_template("exame2b.html", acertos=acertos)
     return render_template("exame2.html")
 
 @app.route("/exame3", methods=['GET','POST'])
@@ -174,15 +176,15 @@ def teste3():
             if checkbox_value == 'true':
                 acertos+=1 
         if acertos >= 6:
-            return render_template("sucesso.html", acertos=acertos)
+            return render_template("exame3b.html", acertos=acertos)
         else:
-            return render_template("fracasso.html", acertos=acertos)
+            return render_template("exame3b.html", acertos=acertos)
     return render_template("exame3.html")
 
 @app.route("/exame4", methods=['GET','POST'])
 def teste4():
     if request.method == 'POST':
-        questoes = '''qt1 qt2 qt3 qt4 qt5 qt6 qt7 qt82'''.split()
+        questoes = '''qt1 qt2 qt3 qt4 qt5 qt6 qt7 qt8'''.split()
         acertos = 0
         for c in questoes:
             checkbox_value = request.form.get(c)
@@ -191,9 +193,9 @@ def teste4():
             if checkbox_value == 'true':
                 acertos+=1 
         if acertos >= 6:
-            return render_template("sucesso.html", acertos=acertos)
+            return render_template("exame4b.html", acertos=acertos)
         else:
-            return render_template("fracasso.html", acertos=acertos)
+            return render_template("exame4b.html", acertos=acertos)
     return render_template("exame4.html")
 
 @app.route("/examefinal", methods=['GET','POST'])

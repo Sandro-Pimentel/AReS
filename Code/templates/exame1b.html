@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+{% block navbar %}
+{% block title %}
+<title>Teste 1</title>
+{% endblock %}
+{% block navtitle %}
+<b class="title">Teste - Definições</b>
+{% endblock %}
+
+<div id="page-content">
+    <h1 class="content h1">Teste de compreensão</h1>
+    <h3 id="c"><b> Você acertou {% print(acertos) %} de 8 questões </b></h3>
+    <form method="POST">
+        <div class="row">
+            <div class="box_teste">
+                <p class="txt_box">
+                    <!-- ADICIONAR PERGUNTA AQUI tema 1 -->1 - Visando obter uma maior produtividade, Qual dos pilares do Scrum deve ser usado para detectar problemas e verificar o andamento do projeto?
+                </p>
+                <br>
+            
+                <div class="qt">
+            
+                    <input name="qt1" class="radio_box" id="1alt1" type="radio" value=true> <span class="txt_qtc"> Inspeção<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br> 
+                    <input name="qt1" class="radio_box" id="1alt2" type="radio" value=false> <span class="txt_qte"> Organização <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt1" class="radio_box" id="1alt3" type="radio" value=false> <span class="txt_qte"> Independência<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt1" class="radio_box" id="1alt4" type="radio" value=false> <span class="txt_qte"> Transpência<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                </div>
+            </div>
+        </div>
+    <br><br>
+        <div class="row">
+            <div class="box_teste">
+                <p class="txt_box">
+                    <!-- ADICIONAR PERGUNTA AQUI tema 1  -->2 - O mundo da tecnologia e mercado está sempre em mudança e sempre se atualizando, para se manter sempre pronto para entregar o melhor e maior valor de produto, Qual o pilar do Scrum que time precisa ter de forma forte   para lidar tanto com as mudanças do mercado quanto com as alterações do projeto?
+                </p>
+                <br>
+            
+                <div class="qt">
+            
+                    <input name="qt2" class="radio_box" id="2alt1" type="radio" value=false> <span class="txt_qte"> Organização<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt2" class="radio_box" id="2alt2" type="radio" value=false> <span class="txt_qte"> Independência <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt2" class="radio_box" id="2alt3" type="radio" value=true> <span class="txt_qtc"> Adaptação<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt2" class="radio_box" id="2alt4" type="radio" value=false> <span class="txt_qte"> Inspeção<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                </div>
+            </div>
+        </div>
+    <br><br>
+        <div class="row">
+            <div class="box_teste">
+                <p class="txt_box">
+                    <!-- ADICIONAR PERGUNTA AQUI tema 1  -->3 - Em relação aos papéis de um time scrum,  o que cada integrante precisa ter em mente para que o time funcione da melhor maneira?
+                </p>
+                <br>
+            
+                <div class="qt">
+            
+                    <input name="qt3" class="radio_box" id="3alt1" type="radio" value=false> <span class="txt_qte"> O Scrum Master por ser quem mais sabe sobre o Scrum é quem gerencia o time de desenvolvimento.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt3" class="radio_box" id="3alt2" type="radio" value=true> <span class="txt_qtc"> O scrum possui pouco papéis mas bem definidos e não há cargos, então deve haver autonomia e produtividade dos membros sem ter que ficar esperando ordens de um chefe/gerente. <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt3" class="radio_box" id="3alt3" type="radio" value=false> <span class="txt_qte"> Para funcionar bem o Scrum precisa de um membro que genrencie e dite as ações a serem feitas.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt3" class="radio_box" id="3alt4" type="radio" value=false> <span class="txt_qte"> O Product Owner por ser quem entra em cliente final é quem gerencia o time de desenvolvimento<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+            
+                </div>
+            </div>
+        </div>
+    <br><br>
+        <div class="row">
+            <div class="box_teste">
+                <p class="txt_box">
+                    <!-- ADICIONAR PERGUNTA AQUI tema 2  -->4 - Além do manifesto ágil e seus princípios, o Scrum possui valores voltados ao comportamento humano. Quais são eles?
+                </p>
+                <br>
+            
+                <div class="qt">
+            
+                    <input name="qt4" class="radio_box" id="4alt1" type="radio" value=false> <span class="txt_qte"> Organização,Persistência, calma e leveza.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt4" class="radio_box" id="4alt2" type="radio" value=false> <span class="txt_qte"> Persistência, independência, paciência e clarividência. <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt4" class="radio_box" id="4alt3" type="radio" value=false> <span class="txt_qte"> Organização, otimização, mecanicanização e padronização. <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt4" class="radio_box" id="4alt4" type="radio" value=true> <span class="txt_qtc"> Foco, coragem, Sinceridade, Comprometimento e Respeito.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+            
+                </div>
+            </div>
+        </div>
+    <br><br>
+        <div class="row">
+            <div class="box_teste">
+                <p class="txt_box">
+                    <!-- ADICIONAR PERGUNTA AQUI tema 2 -->5 -"Indivíduos e interações mais que processos e ferramentas" Quando no manisfesto ágil é dito esta frase,fica claro que o mais importante é?
+                </p>
+                <br>     
+                <div class="qt">
+            
+                    <input name="qt5" class="radio_box" id="5alt1" type="radio" value=true> <span class="txt_qtc">  O valor único da pessoa e a interação do grupo mais do que os processos e as ferramentas.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt5" class="radio_box" id="5alt2" type="radio" value=false> <span class="txt_qte"> Os processos e as ferramentas são mais importantes porque são elas que geram resultados. <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt5" class="radio_box" id="5alt3" type="radio" value=false> <span class="txt_qte"> Os processos e as ferramentas não possuem valor nenhum.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt5" class="radio_box" id="5alt4" type="radio" value=false> <span class="txt_qte"> Os indivíduos e as interações tem o mesmo valor que os processos e ferramentas.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+            
+                </div>
+            </div>
+        </div>
+    <br><br>
+        <div class="row">
+            <div class="box_teste">
+                <p class="txt_box">
+                    <!-- ADICIONAR PERGUNTA AQUI tema 2 -->6 - Uma das frases do Manifesto Ágil é a seguinte "Software em funcionamento mais que documentação abrangente",a partir dela pode se concluir que?
+                </p>
+                <br>       
+                <div class="qt">
+            
+                    <input name="qt6" class="radio_box" id="6alt1" type="radio" value=false> <span class="txt_qte"> O software deve ser entregue primeiro porque é mais facíl e a documentação não tem nenhuma importância.!--<!--ADICIONAR ALTERNATIVA AQUI--></span><br><br>
+                    <input name="qt6" class="radio_box" id="6alt2" type="radio" value=false> <span class="txt_qte"> A documentação deve ser prioridade por ter maior dificuldade e importância.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt6" class="radio_box" id="6alt3" type="radio" value=false> <span class="txt_qte"> A documentação possui para o cliente o mesmo valor e importância que o funcionamento do software.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br> 
+                    <input name="qt6" class="radio_box" id="6alt4" type="radio" value=true> <span class="txt_qtc"> Que o Software possui mais valor agregado do que a documentação pois é o software que pode trazer retorno financeiro.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br> 
+            
+                </div>
+            </div>
+        </div>
+    <br><br>
+        <div class="row">
+            <div class="box_teste">
+                <p class="txt_box">
+                    <!-- ADICIONAR PERGUNTA AQUI tema 3 -->7 - Fazer as Dailys Scrum constantemente e com os integrantes usando o valor da sinceridade para comunicar a verdade sobre a situação tras ao grupo um forte pilar do Scrum que é o Pilar da?
+                </p>
+                <br>
+            
+                <div class="qt">
+            
+                    <input name="qt7" class="radio_box" id="7alt1" type="radio" value=false> <span class="txt_qte"> Empatia<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt7" class="radio_box" id="7alt2" type="radio" value=false> <span class="txt_qte"> Organização <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt7" class="radio_box" id="7alt3" type="radio" value=true> <span class="txt_qtc"> Transparência<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt7" class="radio_box" id="7alt4" type="radio" value=false> <span class="txt_qte"> Inspecão<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+            
+                </div>
+            </div>
+        </div>
+    <br><br>
+        <div class="row">
+            <div class="box_teste">
+                <p class="txt_box">
+                    <!-- ADICIONAR PERGUNTA AQUI tema 3 --> 8 - Quando no manifesto ágil aparece a seguinte frase'Responder a mudanças mais que seguir um plano", o que ela quer dizer?
+                <br>
+            
+                <div class="qt">
+            
+                    <input name="qt8" class="radio_box" id="8alt1" type="radio" value=false> <span class="txt_qte"> Que a melhor forma de responder as mudanças é seguir o planejamento sem fazer alterações.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt8" class="radio_box" id="8alt2" type="radio" value=true> <span class="txt_qtc"> Que saber se adaptar as mudanças e escolher a melhor solução é mais importante que apenas seguir o plano.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt8" class="radio_box" id="8alt3" type="radio" value=false> <span class="txt_qte"> Que seguir o plano não tem nenhuma forma de valor para as ações.<!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+                    <input name="qt8" class="radio_box" id="8alt4" type="radio" value=false> <span class="txt_qte"> Que adaptação as mudanças só devem acontecer se tiverem dentro do planejado. <!-- ADICIONAR ALTERNATIVA AQUI --></span><br><br>
+            
+                </div>
+            </div>
+        </div>
+            
+    <br><br>    
+        
+                <button type="submit" id="btn_exame"><span id="txt_btn_exame">Enviar</span></button>
+            </form>
+
+
+        <br><br><br><br><br>
+</div>
+{% endblock %}  
