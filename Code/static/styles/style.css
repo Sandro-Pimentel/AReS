@@ -543,3 +543,9 @@ td, th{
     width: 100%;
     height: 100%;
 }
+input[type="number"]{
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: large;
+}
