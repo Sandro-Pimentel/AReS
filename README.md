@@ -89,7 +89,7 @@
 ## 👨‍💻 Dev Team
 |Integrantes|Função|Github|LinkedIn|
 | --------- | ---- | ---- |--------|
-|João Vitor Nogueira Silva|Product Owner|[JoVi](https://github.com/JoViHamets)|[LinkedIn](https://br.linkedin.com/)|
+|João Vitor Nogueira Silva|Product Owner|[JoVi](https://github.com/JoViHamets)|[LinkedIn](https://br.linkedin.com/in/joão-vitor-bab504279/)|
 |Sandro Roberto Pimentel Junior|Scrum Master|[Sandro-Pimentel](https://github.com/Sandro-Pimentel)|[LinkedIn](https://br.linkedin.com/in/sandro-roberto-pimentel-junior-1287a3254)|
 |João Eduardo Messias Moreira|Scrum Team|[joao-eduardo17](https://github.com/joao-eduardo17)|[LinkedIn](https://br.linkedin.com/in/jo%C3%A3o-eduardo-a3019125b)|
 |José Ribamar Ferreira Nobre Junior|Scrum Team|[JoseRibamarNobre7](https://github.com/JoseRibamarNobre7)|[LinkedIn](https://br.linkedin.com/in/)|
