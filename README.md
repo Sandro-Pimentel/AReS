@@ -30,7 +30,7 @@
 ## Product Backlog
 
 <div>
-    <img width="" height="" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/ProdBacklog.png">
+    <img width="" height="" src="https://github.com/Sandro-Pimentel/AReS/blob/main/Images/ProdBacklogFull.png">
 </div>
 
 ## 📆 Cronograma de entrega das sprints
